@@ -1,0 +1,876 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdftex 2016.5.30)  28 AUG 2016 17:39
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**classicthesis.sty
+(./classicthesis.sty
+! Undefined control sequence.
+l.41 \NeedsTeXFormat
+                    {LaTeX2e}%[2015/01/01] % fixed via latexrelease package,...
+
+? 
+! Interruption.
+<to be read again> 
+                   {
+l.41 \NeedsTeXFormat{
+                     LaTeX2e}%[2015/01/01] % fixed via latexrelease package,...
+
+? 
+! Undefined control sequence.
+l.42 \ProvidesPackage
+                     {classicthesis}[2015/09/06 v4.2 Typographic style for a...
+
+? 
+! Undefined control sequence.
+l.45 \RequirePackage
+                    {ifthen}
+? 
+! Undefined control sequence.
+l.46     \newboolean
+                    {@tocaligned} % the left column of the toc will be align...
+
+? 
+! Undefined control sequence.
+l.47     \newboolean
+                    {@eulerchapternumbers} % use AMS Euler for chapter font ...
+
+? 
+! Undefined control sequence.
+l.48     \newboolean
+                    {@drafting} % print version information on pages
+? 
+! Undefined control sequence.
+l.49     \newboolean
+                    {@linedheaders} % chaper headers will have line above an...
+
+? 
+! Undefined control sequence.
+l.50     \newboolean
+                    {@listsseparated} % toggles the vertical space between l...
+
+? 
+! Undefined control sequence.
+l.51     \newboolean
+                    {@nochapters} % disable all chapter-specific commands
+? 
+! Undefined control sequence.
+l.52     \newboolean
+                    {@beramono} % toggle nice monospaced font (w/ bold) + pr...
+
+? 
+! Undefined control sequence.
+l.53     \newboolean
+                    {@eulermath} % use awesome Euler fonts for math
+? 
+! Undefined control sequence.
+l.54     \newboolean
+                    {@parts} % use part division for the text
+? 
+! Undefined control sequence.
+l.55     \newboolean
+                    {@minionpro} % setup for minion pro font
+? 
+! Undefined control sequence.
+l.56     \newboolean
+                    {@minionprospacing} % use minion pro's textssc for lette...
+
+? 
+! Undefined control sequence.
+l.57     \newboolean
+                    {@pdfspacing} % use pdftex for letterspacing (via microt...
+
+? 
+! Undefined control sequence.
+l.58     \newboolean
+                    {@subfig} % setup for preloaded @subfig package
+? 
+! Undefined control sequence.
+l.59     \newboolean
+                    {@a5paper} % use those tiny DIN A5 pages
+? 
+! Undefined control sequence.
+l.60     \newboolean
+                    {@dottedtoc} % page numbers in ToC flushed right
+? 
+! Undefined control sequence.
+l.61     \newboolean
+                    {@listings} % load listings package (if not already) and...
+
+? 
+! Undefined control sequence.
+l.62     \newboolean
+                    {@manychapters} % additional space in ToC after chapter ...
+
+? 
+! Undefined control sequence.
+l.63     \newboolean
+                    {@floatperchapter} % numbering per chapter for all float...
+
+? 
+
+Overfull \hbox (3.13484pt too wide) in paragraph at lines 41--64
+\tenrm @eu-ler-chap-ter-num-bers @draft-ing @lined-head-ers @listssep-a-rated @
+nochap-ters @be-ra-mono @eu-ler-math @parts|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm @
+.\tenrm e
+.\tenrm u
+.\discretionary
+..\tenrm -
+.\tenrm l
+.etc.
+
+
+Overfull \hbox (2.07945pt too wide) in paragraph at lines 41--64
+\tenrm @min-ion-pro @min-ion-prospac-ing @pdf-s-pac-ing @sub-fig @a5paper @dot-
+ted-toc @list-ings @many-chap-ters @float-|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm @
+.\tenrm m
+.\tenrm i
+.\tenrm n
+.\discretionary
+..\tenrm -
+.etc.
+
+! Undefined control sequence.
+l.68 \DeclareOption
+                   {tocaligned}{\setboolean{@tocaligned}{true}}
+? 
+! Undefined control sequence.
+l.68 \DeclareOption{tocaligned}{\setboolean
+                                           {@tocaligned}{true}}
+? 
+! Undefined control sequence.
+l.69 \DeclareOption
+                   {eulerchapternumbers}{\setboolean{@eulerchapternumbers}{t...
+
+? 
+! Undefined control sequence.
+l.69 ...areOption{eulerchapternumbers}{\setboolean
+                                                  {@eulerchapternumbers}{true}}
+
+? 
+! Undefined control sequence.
+l.70 \DeclareOption
+                   {drafting}{\setboolean{@drafting}{true}}
+? 
+! Undefined control sequence.
+l.70 \DeclareOption{drafting}{\setboolean
+                                         {@drafting}{true}}
+? 
+! Undefined control sequence.
+l.71 \DeclareOption
+                   {linedheaders}{\setboolean{@linedheaders}{true}}
+? 
+! Undefined control sequence.
+l.71 \DeclareOption{linedheaders}{\setboolean
+                                             {@linedheaders}{true}}
+? 
+! Undefined control sequence.
+l.72 \DeclareOption
+                   {listsseparated}{\setboolean{@listsseparated}{true}}
+? 
+! Undefined control sequence.
+l.72 \DeclareOption{listsseparated}{\setboolean
+                                               {@listsseparated}{true}}
+? 
+! Undefined control sequence.
+l.73 \DeclareOption
+                   {subfigure}{%
+? 
+! Undefined control sequence.
+l.74     \PackageWarningNoLine
+                              {classicthesis}{Package "subfigure" and option...
+
+? 
+! Undefined control sequence.
+l.75     \setboolean
+                    {@subfig}{true}%
+? 
+! Undefined control sequence.
+l.77 \DeclareOption
+                   {subfig}{\setboolean{@subfig}{true}}
+? 
+! Undefined control sequence.
+l.77 \DeclareOption{subfig}{\setboolean
+                                       {@subfig}{true}}
+? 
+! Undefined control sequence.
+l.78 \DeclareOption
+                   {nochapters}{\setboolean{@nochapters}{true}}
+? 
+! Undefined control sequence.
+l.78 \DeclareOption{nochapters}{\setboolean
+                                           {@nochapters}{true}}
+? 
+! Undefined control sequence.
+l.79 \DeclareOption
+                   {beramono}{\setboolean{@beramono}{true}}
+? 
+! Undefined control sequence.
+l.79 \DeclareOption{beramono}{\setboolean
+                                         {@beramono}{true}}
+? 
+! Undefined control sequence.
+l.80 \DeclareOption
+                   {eulermath}{\setboolean{@eulermath}{true}}
+? 
+! Undefined control sequence.
+l.80 \DeclareOption{eulermath}{\setboolean
+                                          {@eulermath}{true}}
+? 
+! Undefined control sequence.
+l.81 \DeclareOption
+                   {parts}{\setboolean{@parts}{true}}
+? 
+! Undefined control sequence.
+l.81 \DeclareOption{parts}{\setboolean
+                                      {@parts}{true}}
+? 
+! Undefined control sequence.
+l.82 \DeclareOption
+                   {a5paper}{\setboolean{@a5paper}{true}}
+? 
+! Undefined control sequence.
+l.82 \DeclareOption{a5paper}{\setboolean
+                                        {@a5paper}{true}}
+? 
+! Undefined control sequence.
+l.83 \DeclareOption
+                   {minionpro}{\setboolean{@minionpro}{true}}
+? 
+! Undefined control sequence.
+l.83 \DeclareOption{minionpro}{\setboolean
+                                          {@minionpro}{true}}
+? 
+! Undefined control sequence.
+l.84 \DeclareOption
+                   {minionprospacing}{\setboolean{@minionprospacing}{true}}
+? 
+! Undefined control sequence.
+l.84 \DeclareOption{minionprospacing}{\setboolean
+                                                 {@minionprospacing}{true}}
+? 
+! Undefined control sequence.
+l.85 \DeclareOption
+                   {pdfspacing}{\setboolean{@pdfspacing}{true}}
+? 
+! Undefined control sequence.
+l.85 \DeclareOption{pdfspacing}{\setboolean
+                                           {@pdfspacing}{true}}
+? 
+! Undefined control sequence.
+l.86 \DeclareOption
+                   {dottedtoc}{\setboolean{@dottedtoc}{true}}
+? 
+! Undefined control sequence.
+l.86 \DeclareOption{dottedtoc}{\setboolean
+                                          {@dottedtoc}{true}}
+? 
+! Undefined control sequence.
+l.87 \DeclareOption
+                   {listings}{\setboolean{@listings}{true}}
+? 
+! Undefined control sequence.
+l.87 \DeclareOption{listings}{\setboolean
+                                         {@listings}{true}}
+? 
+! Undefined control sequence.
+l.88 \DeclareOption
+                   {manychapters}{\setboolean{@manychapters}{true}}
+? 
+! Undefined control sequence.
+l.88 \DeclareOption{manychapters}{\setboolean
+                                             {@manychapters}{true}}
+? 
+! Undefined control sequence.
+l.89 \DeclareOption
+                   {floatperchapter}{\setboolean{@floatperchapter}{true}}
+? 
+! Undefined control sequence.
+l.89 \DeclareOption{floatperchapter}{\setboolean
+                                                {@floatperchapter}{true}}
+? 
+! Undefined control sequence.
+l.90 \ProcessOptions
+                    \relax
+? 
+
+Overfull \hbox (30.26453pt too wide) in paragraph at lines 68--91
+\tenrm op-tion "sub-fig-ure" are dep-re-cated, used "sub-fig" in-stead. @sub-fi
+gtrue sub-fig@subfigtrue nochap-ters@nochapterstrue|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm o
+.\tenrm p
+.\discretionary
+..\tenrm -
+.\tenrm t
+.\tenrm i
+.etc.
+
+
+Overfull \hbox (44.10733pt too wide) in paragraph at lines 68--91
+\tenrm be-ra-mono@beramonotrue eu-ler-math@eulermathtrue parts@partstrue a5pape
+r@a5papertrue min-ion-pro@minionprotrue|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm b
+.\kern0.27779
+.\tenrm e
+.\discretionary
+..\tenrm -
+.\tenrm r
+.etc.
+
+
+Overfull \hbox (31.41287pt too wide) in paragraph at lines 68--91
+\tenrm min-ion-prospac-ing@minionprospacingtrue pdf-s-pac-ing@pdfspacingtrue do
+t-ted-toc@dottedtoctrue list-ings@listingstrue|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm m
+.\tenrm i
+.\tenrm n
+.\discretionary
+..\tenrm -
+.\tenrm i
+.etc.
+
+! Undefined control sequence.
+l.93 \@
+       ifpackageloaded{subfig}%
+? 
+! Undefined control sequence.
+l.94     {\setboolean
+                     {@subfig}{true}%
+? 
+! Undefined control sequence.
+l.96 \@
+       ifpackageloaded{subfigure}%
+? 
+! Undefined control sequence.
+l.97     {\setboolean
+                     {@subfig}{true}%
+? 
+! Undefined control sequence.
+l.98      \PackageWarningNoLine
+                               {classicthesis}{Package "subfigure" and optio...
+
+? 
+! Undefined control sequence.
+l.101 \ifthenelse
+                 {\boolean{@subfig}}%
+? 
+! Undefined control sequence.
+l.101 \ifthenelse{\boolean
+                          {@subfig}}%
+? 
+! Undefined control sequence.
+l.102     {\PassOptionsToPackage
+                                {subfigure}{tocloft}%
+? 
+! Undefined control sequence.
+l.106 \ifthenelse
+                 {\boolean{@listings}}%
+? 
+! Undefined control sequence.
+l.106 \ifthenelse{\boolean
+                          {@listings}}%
+? 
+! Undefined control sequence.
+l.107     {\@
+             ifpackageloaded{listings}%
+? 
+! Undefined control sequence.
+l.108         {\relax}{\RequirePackage
+                                      {listings}}%
+? 
+! Undefined control sequence.
+l.112 \ifthenelse
+                 {\boolean{@minionprospacing}}%
+? 
+! Undefined control sequence.
+l.112 \ifthenelse{\boolean
+                          {@minionprospacing}}%
+? 
+! Undefined control sequence.
+l.114         \PackageInfo
+                          {classicthesis}{Using option "minionprospacing". %
+? 
+! Undefined control sequence.
+l.118         \ifthenelse
+                         {\boolean{@pdfspacing}}%
+? 
+! Undefined control sequence.
+l.118         \ifthenelse{\boolean
+                                  {@pdfspacing}}%
+? 
+! Undefined control sequence.
+l.120                 \PackageWarningNoLine
+                                           {classicthesis}{You cannot use "p...
+
+? 
+! Undefined control sequence.
+l.123         \setboolean
+                         {@minionpro}{true}%
+? 
+! Undefined control sequence.
+l.124         \setboolean
+                         {@pdfspacing}{false}%
+? 
+! Undefined control sequence.
+l.128 \ifthenelse
+                 {\boolean{@nochapters}}%
+? 
+! Undefined control sequence.
+l.128 \ifthenelse{\boolean
+                          {@nochapters}}%
+? 
+! Undefined control sequence.
+l.131         \ifthenelse
+                         {\boolean{@parts}}%
+? 
+! Undefined control sequence.
+l.131         \ifthenelse{\boolean
+                                  {@parts}}%
+? 
+! Undefined control sequence.
+l.133                 \PackageWarningNoLine
+                                           {classicthesis}{You cannot use "p...
+
+? 
+! Undefined control sequence.
+l.137         \ifthenelse
+                         {\boolean{@manychapters}}%
+? 
+! Undefined control sequence.
+l.137         \ifthenelse{\boolean
+                                  {@manychapters}}%
+? 
+! Undefined control sequence.
+l.139                 \PackageWarningNoLine
+                                           {classicthesis}{You cannot use "m...
+
+? 
+! Undefined control sequence.
+l.143         \ifthenelse
+                         {\boolean{@floatperchapter}}%
+? 
+! Undefined control sequence.
+l.143         \ifthenelse{\boolean
+                                  {@floatperchapter}}%
+? 
+! Undefined control sequence.
+l.145                 \PackageWarningNoLine
+                                           {classicthesis}{You cannot use "f...
+
+? 
+! Undefined control sequence.
+l.149         \PackageInfo
+                          {classicthesis}{Using option "nochapters" (probabl...
+
+? 
+! Undefined control sequence.
+l.152         \setboolean
+                         {@linedheaders}{false}%
+? 
+! Undefined control sequence.
+l.153         \setboolean
+                         {@listsseparated}{false}%
+? 
+! Undefined control sequence.
+l.154         \setboolean
+                         {@eulerchapternumbers}{false}%
+? 
+! Undefined control sequence.
+l.155         \setboolean
+                         {@parts}{false}%
+? 
+! Undefined control sequence.
+l.156         \setboolean
+                         {@manychapters}{false}%
+? 
+! Undefined control sequence.
+l.157         \setboolean
+                         {@floatperchapter}{false}%
+? 
+
+Overfull \hbox (70.44035pt too wide) in paragraph at lines 128--159
+[]\tenrm @nochapters@partsclassicthesisYou can-not use "parts" at the same time
+ as "nochap-ters"!@manychaptersclassicthesisYou|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm n
+.\tenrm o
+.\kern0.27779
+.etc.
+
+
+Overfull \hbox (298.08908pt too wide) in paragraph at lines 128--159
+\tenrm ler-chap-ter-num-bers", and "parts". Please be aware of that. @lined-hea
+d-er-s-false@listsseparatedfalse@eulerchapternumbersfalse@partsfalse@manychapte
+rsfalse@floatperchapterfalse |
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm l
+.\tenrm e
+.\tenrm r
+.\discretionary
+..\tenrm -
+.\tenrm c
+.etc.
+
+! Undefined control sequence.
+l.163 \RequirePackage
+                     {ifpdf}
+? 
+! Undefined control sequence.
+l.164 \ifpdf
+            \RequirePackage{hyperref}\fi % for texorpdfstring command below
+? 
+! Undefined control sequence.
+l.164 \ifpdf\RequirePackage
+                           {hyperref}\fi % for texorpdfstring command below
+? 
+! Extra \fi.
+l.164 \ifpdf\RequirePackage{hyperref}\fi
+                                         % for texorpdfstring command below
+? 
+! Undefined control sequence.
+l.167 \RequirePackage
+                     {ifxetex}
+? 
+! Undefined control sequence.
+l.168 \ifxetex
+              \RequirePackage{hyperref}\fi % for texorpdfstring command below
+? 
+! Undefined control sequence.
+l.168 \ifxetex\RequirePackage
+                             {hyperref}\fi % for texorpdfstring command below
+? 
+! Extra \fi.
+l.168 \ifxetex\RequirePackage{hyperref}\fi
+                                           % for texorpdfstring command below
+? 
+! Undefined control sequence.
+l.171 \ifxetex
+              %
+? 
+! Undefined control sequence.
+l.172     \ifthenelse
+                     {\boolean{@pdfspacing}}%
+? 
+! Undefined control sequence.
+l.172     \ifthenelse{\boolean
+                              {@pdfspacing}}%
+? 
+! Undefined control sequence.
+l.174             \PackageWarningNoLine
+                                       {classicthesis}{You cannot use the op...
+
+? 
+! Undefined control sequence.
+l.177     \setboolean
+                     {@pdfspacing}{false}%
+? 
+! Extra \fi.
+l.178 \fi
+         
+? 
+! Undefined control sequence.
+l.183 \PassOptionsToPackage
+                           {dvipsnames}{xcolor}
+? 
+! Undefined control sequence.
+l.184     \RequirePackage
+                         {xcolor} % [dvipsnames]
+? 
+! Undefined control sequence.
+l.185 \definecolor
+                  {halfgray}{gray}{0.55} % chapter numbers will be semi tran...
+
+? 
+! Undefined control sequence.
+l.186 \definecolor
+                  {webgreen}{rgb}{0,.5,0}
+? 
+! Undefined control sequence.
+l.187 \definecolor
+                  {webbrown}{rgb}{.6,0,0}
+? 
+! Undefined control sequence.
+l.196 \ifthenelse
+                 {\boolean{@minionpro}}%
+? 
+! Undefined control sequence.
+l.196 \ifthenelse{\boolean
+                          {@minionpro}}%
+? 
+! Undefined control sequence.
+l.199             \ifthenelse
+                             {\boolean{@eulermath}}%
+? 
+! Undefined control sequence.
+l.199             \ifthenelse{\boolean
+                                      {@eulermath}}%
+? 
+! Undefined control sequence.
+l.201             \PassOptionsToPackage
+                                       {opticals,mathlf,onlytext}{MinionPro}%
+? 
+! Undefined control sequence.
+l.202             \RequirePackage
+                                 {MinionPro} %  opticals, fullfamily, osf
+? 
+! Undefined control sequence.
+l.204             \PassOptionsToPackage
+                                       {opticals,mathlf}{MinionPro}%
+? 
+! Undefined control sequence.
+l.205             \RequirePackage
+                                 {MinionPro} %  opticals, fullfamily, osf
+? 
+! Undefined control sequence.
+l.209         \PassOptionsToPackage
+                                   {osf,sc}{mathpazo}%
+? 
+! Undefined control sequence.
+l.210         \RequirePackage
+                             {mathpazo} % Palatino with real small caps and ...
+
+? 
+! Undefined control sequence.
+l.211         \linespread
+                         {1.05} % a bit more for Palatino
+? 
+
+Overfull \hbox (11.07957pt too wide) in paragraph at lines 196--213
+[]\tenrm @minionpro@eulermathopticals,mathlf,onlytextMinionProMinionPro op-ti-c
+als,mathlfMinionProMinionPro|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm m
+.\tenrm i
+.\tenrm n
+.etc.
+
+! Undefined control sequence.
+l.214 \ifthenelse
+                 {\boolean{@beramono}}%
+? 
+! Undefined control sequence.
+l.214 \ifthenelse{\boolean
+                          {@beramono}}%
+? 
+! Undefined control sequence.
+l.215     {\PassOptionsToPackage
+                                {scaled=0.85}{beramono}%
+? 
+! Undefined control sequence.
+l.216      \RequirePackage
+                          {beramono}}%
+? 
+! Undefined control sequence.
+l.222 \ifthenelse
+                 {\boolean{@eulermath}}%
+? 
+! Undefined control sequence.
+l.222 \ifthenelse{\boolean
+                          {@eulermath}}%
+? 
+! Undefined control sequence.
+l.223     {\PassOptionsToPackage
+                                {euler-digits}{eulervm}%
+? 
+! Undefined control sequence.
+l.224      \RequirePackage
+                          {eulervm}} % Euler math fonts
+? 
+! Undefined control sequence.
+l.227 \ifthenelse
+                 {\boolean{@eulerchapternumbers}}% font for the chapter numbers
+
+? 
+! Undefined control sequence.
+l.227 \ifthenelse{\boolean
+                          {@eulerchapternumbers}}% font for the chapter numbers
+
+? 
+! Undefined control sequence.
+l.228     {\newfont
+                   {\chapterNumber}{eurb10 scaled 7000}}%
+? 
+! Undefined control sequence.
+l.228     {\newfont{\chapterNumber
+                                  }{eurb10 scaled 7000}}%
+? 
+! Undefined control sequence.
+l.229     {\newfont
+                   {\chapterNumber}{pplr9d scaled 7000}}
+? 
+! Undefined control sequence.
+l.229     {\newfont{\chapterNumber
+                                  }{pplr9d scaled 7000}}
+? 
+! Undefined control sequence.
+l.234 \RequirePackage
+                     {microtype} % character protruding and other micro-typo...
+
+? 
+! Undefined control sequence.
+l.240 \@
+        ifpackageloaded{typearea}%
+? 
+! Undefined control sequence.
+l.242         \RequirePackage
+                             {typearea}%
+? 
+! Undefined control sequence.
+l.244 \ifthenelse
+                 {\boolean{@a5paper}}%
+? 
+! Undefined control sequence.
+l.244 \ifthenelse{\boolean
+                          {@a5paper}}%
+? 
+! Undefined control sequence.
+l.246         \ifthenelse
+                         {\boolean{@minionpro}}%
+? 
+! Undefined control sequence.
+l.246         \ifthenelse{\boolean
+                                  {@minionpro}}%
+? 
+! Undefined control sequence.
+l.248             \PackageInfo
+                              {classicthesis}{A5 paper, MinionPro}%
+? 
+! Undefined control sequence.
+l.249             \areaset
+                          [current]{278pt}{556pt}%
+? 
+! Undefined control sequence.
+l.250             \setlength
+                            {\marginparwidth}{5em}%
+? 
+! Undefined control sequence.
+l.250             \setlength{\marginparwidth
+                                            }{5em}%
+? 
+! Undefined control sequence.
+l.251             \setlength
+                            {\marginparsep}{1.25em}%
+? 
+! Undefined control sequence.
+l.251             \setlength{\marginparsep
+                                          }{1.25em}%
+? 
+! Undefined control sequence.
+l.253             \PackageInfo
+                              {classicthesis}{A5 paper, Palatino or other}%
+? 
+! Undefined control sequence.
+l.254             \areaset
+                          [current]{288pt}{555pt}%
+? 
+! Undefined control sequence.
+l.255             \setlength
+                            {\marginparwidth}{4em}%
+? 
+! Undefined control sequence.
+l.255             \setlength{\marginparwidth
+                                            }{4em}%
+? 
+! Undefined control sequence.
+l.256             \setlength
+                            {\marginparsep}{1.25em}%
+? 
+! Undefined control sequence.
+l.256             \setlength{\marginparsep
+                                          }{1.25em}%
+? 
+! Undefined control sequence.
+l.259         \ifthenelse
+                         {\boolean{@minionpro}}%
+? 
+! Undefined control sequence.
+l.259         \ifthenelse{\boolean
+                                  {@minionpro}}%
+? 
+! Undefined control sequence.
+l.261             \PackageInfo
+                              {classicthesis}{A4 paper, MinionPro}%
+? 
+! Undefined control sequence.
+l.262             \areaset
+                          [current]{312pt}{684pt}% 609 + 33 + 42 head \the\f...
+
+? 
+! Undefined control sequence.
+l.263             \setlength
+                            {\marginparwidth}{7.5em}%
+? 
+! Undefined control sequence.
+l.263             \setlength{\marginparwidth
+                                            }{7.5em}%
+? 
+! Undefined control sequence.
+l.264             \setlength
+                            {\marginparsep}{2em}%
+? 
+! Undefined control sequence.
+l.264             \setlength{\marginparsep
+                                          }{2em}%
+? 
+! Undefined control sequence.
+l.266             \PackageInfo
+                              {classicthesis}{A4 paper, Palatino or other}
+? 
+! Undefined control sequence.
+l.267             \areaset
+                          [current]{336pt}{750pt} % ~ 336 * factor 2 + 33 he...
+
+? 
+! Undefined control sequence.
+l.269             \setlength
+                            {\marginparwidth}{7em}%
+? 
+! Undefined control sequence.
+l.269             \setlength{\marginparwidth
+                                            }{7em}%
+? 
+! Undefined control sequence.
+l.270             \setlength
+                            {\marginparsep}{2em}%
+? 
+! Undefined control sequence.
+l.270             \setlength{\marginparsep
+                                          }{2em}%
+? 
+
+Overfull \hbox (132.1074pt too wide) in paragraph at lines 240--286
+[]\tenrm ifpackageloadedtypeareatypearea @a5paper@minionproclassicthesisA5 pa-p
+er, Min-ion-Pro[current]278pt556pt5em1.25emclassicthesisA5|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm f
+.\tenrm p
+.\tenrm a
+.etc.
+
+
+Overfull \hbox (156.13527pt too wide) in paragraph at lines 240--286
+\tenrm pa-per, Palatino or other[current]288pt555pt4em1.25em@minionproclassicth
+esisA4 pa-per, Min-ion-Pro[current]312pt684pt7.5em2emclassicthesisA4|
+
+\hbox(7.5+2.5)x469
