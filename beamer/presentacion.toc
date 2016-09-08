@@ -1,0 +1,7 @@
+\select@language {spanish}
+\beamer@endinputifotherversion {3.36pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{\IeC {\textquestiondown }De qu\IeC {\'e} trata?}{2}{0}{1}
+\beamer@sectionintoc {2}{Un peque\IeC {\~n}o adelanto}{5}{0}{2}
+\beamer@sectionintoc {3}{pronto ...}{6}{0}{3}
+\beamer@sectionintoc {4}{pronto ...}{7}{0}{4}
