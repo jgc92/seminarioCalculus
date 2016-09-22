@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  8 SEP 2016 10:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  22 SEP 2016 09:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1052,217 +1052,230 @@ Package: beamercolorthemeorchid 2010/06/17  (rcs-revision d02a7cf4d8ae)
 ructure.sty
 Package: beamercolorthemestructure 2010/06/17  (rcs-revision d02a7cf4d8ae)
 ))
+\sympureletters=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 7.
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2014/10/28 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+\symboldpureletters=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 24.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\new@ifnextchar' on input line 24.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\medskipamount' on input line 24.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\begingroup' on input line 24.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\catcode' on input line 24.
+(hyperref)                removing `\\' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\active' on input line 24.
+(hyperref)                removing `\new@ifnextchar' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 24.
+(hyperref)                removing `\medskipamount' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\csname\endcsname' on input line 24.
+(hyperref)                removing `\begingroup' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\catcode' on input line 24.
+(hyperref)                removing `\catcode' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\active' on input line 24.
+(hyperref)                removing `\active' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 24.
+(hyperref)                removing `\<def>-command' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\csname\endcsname' on input line 24.
+(hyperref)                removing `\csname\endcsname' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 24.
+(hyperref)                removing `\catcode' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\%' on input line 24.
+(hyperref)                removing `\active' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\catcode' on input line 24.
+(hyperref)                removing `\<let>-command' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\active' on input line 24.
+(hyperref)                removing `\csname\endcsname' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 24.
+(hyperref)                removing `\<let>-command' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\csname\endcsname' on input line 24.
+(hyperref)                removing `\%' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 24.
+(hyperref)                removing `\catcode' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\#' on input line 24.
+(hyperref)                removing `\active' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\catcode' on input line 24.
+(hyperref)                removing `\<def>-command' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 24.
+(hyperref)                removing `\csname\endcsname' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\csname\endcsname' on input line 24.
+(hyperref)                removing `\<def>-command' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 24.
+(hyperref)                removing `\#' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\&' on input line 24.
+(hyperref)                removing `\catcode' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 24.
+(hyperref)                removing `\<def>-command' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\textunderscore' on input line 24.
+(hyperref)                removing `\csname\endcsname' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 24.
+(hyperref)                removing `\<def>-command' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\_' on input line 24.
+(hyperref)                removing `\&' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\catcode' on input line 24.
+(hyperref)                removing `\<def>-command' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\active' on input line 24.
+(hyperref)                removing `\textunderscore' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 24.
+(hyperref)                removing `\<let>-command' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\csname\endcsname' on input line 24.
+(hyperref)                removing `\_' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 24.
+(hyperref)                removing `\catcode' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\csname\endcsname' on input line 24.
+(hyperref)                removing `\active' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 24.
+(hyperref)                removing `\<let>-command' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\~' on input line 24.
+(hyperref)                removing `\csname\endcsname' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 24.
+(hyperref)                removing `\<let>-command' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\textasciitilde' on input line 24.
+(hyperref)                removing `\csname\endcsname' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 24.
+(hyperref)                removing `\<let>-command' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 24.
+(hyperref)                removing `\~' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 24.
+(hyperref)                removing `\<let>-command' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\csname\endcsname' on input line 24.
+(hyperref)                removing `\textasciitilde' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 24.
+(hyperref)                removing `\<let>-command' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Hy@tempa' on input line 24.
+(hyperref)                removing `\\' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 24.
+(hyperref)                removing `\<def>-command' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Hy@tempa' on input line 24.
+(hyperref)                removing `\csname\endcsname' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 38.
+(hyperref)                removing `\<def>-command' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 38.
+(hyperref)                removing `\Hy@tempa' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 38.
+(hyperref)                removing `\<def>-command' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 38.
+(hyperref)                removing `\Hy@tempa' on input line 26.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 38.
+(hyperref)                removing `math shift' on input line 40.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 38.
+(hyperref)                removing `superscript' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 40.
 
 (./presentacion.aux
 LaTeX Info: Redefining \. on input line 23.
@@ -1272,20 +1285,20 @@ LaTeX Info: Redefining \% on input line 29.
 )
 \openout1 = `presentacion.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1351,7 +1364,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 38.
+Package hyperref Info: Link coloring OFF on input line 40.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1361,66 +1374,68 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count161
 )
-LaTeX Info: Redefining \ref on input line 38.
-LaTeX Info: Redefining \pageref on input line 38.
-LaTeX Info: Redefining \nameref on input line 38.
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
 
 (./presentacion.out) (./presentacion.out)
 \@outlinefile=\write5
 \openout5 = `presentacion.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 38.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 40.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 38.
-\symnumbers=\mathgroup6
-\sympureletters=\mathgroup7
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 38.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 38.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 38.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 38.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 38.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 38.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 38.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 38.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 38.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 38.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 38.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 38.
-LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 38.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 38.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 38.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 38.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 38.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 38.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 38.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 38.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 40.
+\symnumbers=\mathgroup11
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 40.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 3
-8.
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/cmss/m/it on input line 4
+0.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/bx/sl --> OT1/cmss/m/it on input line 
+40.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 40.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 40.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 40.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 40.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 4
+0.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-38.
+40.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 38.
+ut line 40.
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
 ic-dictionary/translator-basic-dictionary-English.dict
@@ -1446,21 +1461,21 @@ Dictionary: translator-numbers-dictionary, Language: English
 orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 38.
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
+LaTeX Info: Redefining \includegraphics on input line 40.
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
  (./presentacion.nav)
-LaTeX Font Info:    Try loading font information for U+msa on input line 42.
+LaTeX Font Info:    Try loading font information for U+msa on input line 44.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 42.
+LaTeX Font Info:    Try loading font information for U+msb on input line 44.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 42.
+line 44.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -1468,53 +1483,135 @@ thkerncmss.
 )
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 42.
+(Font)              size <5> substituted on input line 44.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./udg-logo.png>]
-<curva-suave.png, id=63, 2007.5pt x 1405.25pt>
-File: curva-suave.png Graphic file (type png)
- <use curva-suave.png>
-Package pdftex.def Info: curva-suave.png used on input line 60.
-(pdftex.def)             Requested size: 160.60327pt x 112.42229pt.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 60.
 
-Overfull \hbox (6.95834pt too wide) in paragraph at lines 60--60
-[][]  
- []
-
-[2
-
- <./udg-logo.png> <./curva-suave.png>]
-<curva-pico.png, id=81, 671.50874pt x 400.49625pt>
-File: curva-pico.png Graphic file (type png)
- <use curva-pico.png>
-Package pdftex.def Info: curva-pico.png used on input line 74.
-(pdftex.def)             Requested size: 167.87677pt x 100.12381pt.
-
-Overfull \hbox (14.23184pt too wide) in paragraph at lines 74--74
- [] 
- []
-
-[3
-
- <./udg-logo.png> <./curva-pico.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 86.
-
-LaTeX Font Info:    No file OMScmss.fd. on input line 86.
+LaTeX Font Info:    No file OMScmss.fd. on input line 60.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 86.
+(Font)              for symbol `textbullet' on input line 60.
 
-[4
+[2
 
- <./udg-logo.png>] [5
+ <./udg-logo.png>] <curva-suave.png, id=77, 674.52pt x 500.87125pt>
+File: curva-suave.png Graphic file (type png)
 
- <./udg-logo.png>] [6
+<use curva-suave.png>
+Package pdftex.def Info: curva-suave.png used on input line 73.
+(pdftex.def)             Requested size: 168.62958pt x 125.2175pt.
 
- <./udg-logo.png>] [7
+Overfull \hbox (14.98465pt too wide) in paragraph at lines 73--73
+ [] 
+ []
+
+<curva-no-suave.png, id=78, 395.4775pt x 308.15125pt>
+File: curva-no-suave.png Graphic file (type png)
+ <use curva-no-suave.png>
+Package pdftex.def Info: curva-no-suave.png used on input line 73.
+(pdftex.def)             Requested size: 138.41919pt x 107.85454pt.
+
+[3
+
+ <./udg-logo.png> <./curva-suave.png> <./curva-no-suave.png>] [4
+
+ <./udg-logo.png>] <../gfx/cardano-leibniz.png, id=109, 723.503pt x 414.348pt>
+File: ../gfx/cardano-leibniz.png Graphic file (type png)
+
+<use ../gfx/cardano-leibniz.png>
+Package pdftex.def Info: ../gfx/cardano-leibniz.png used on input line 90.
+(pdftex.def)             Requested size: 307.28987pt x 175.97859pt.
+ [5
+
+ <./udg-logo.png> <../gfx/cardano-leibniz.png>] <../gfx/newton-wessel.png, id=1
+23, 705.837pt x 419.969pt>
+File: ../gfx/newton-wessel.png Graphic file (type png)
+
+<use ../gfx/newton-wessel.png>
+Package pdftex.def Info: ../gfx/newton-wessel.png used on input line 94.
+(pdftex.def)             Requested size: 307.28987pt x 182.83882pt.
+ [6
+
+ <./udg-logo.png> <../gfx/newton-wessel.png>]
+<../gfx/gauss-frame.png, id=137, 444.862pt x 493.042pt>
+File: ../gfx/gauss-frame.png Graphic file (type png)
+
+<use ../gfx/gauss-frame.png>
+Package pdftex.def Info: ../gfx/gauss-frame.png used on input line 100.
+(pdftex.def)             Requested size: 184.3758pt x 204.33778pt.
+ [7
+
+ <./udg-logo.png> <../gfx/gauss-frame.png>]
+<../gfx/hamilton.pdf, id=152, 269.005pt x 327.2225pt>
+File: ../gfx/hamilton.pdf Graphic file (type pdf)
+
+<use ../gfx/hamilton.pdf>
+Package pdftex.def Info: ../gfx/hamilton.pdf used on input line 114.
+(pdftex.def)             Requested size: 107.60008pt x 130.88667pt.
+ [8
+
+ <./udg-logo.png> <../gfx/hamilton.pdf>]
+File: ../gfx/hamilton.pdf Graphic file (type pdf)
+
+<use ../gfx/hamilton.pdf>
+Package pdftex.def Info: ../gfx/hamilton.pdf used on input line 132.
+(pdftex.def)             Requested size: 107.60008pt x 130.88667pt.
+ [9
+
+ <./udg-logo.png>]
+File: ../gfx/hamilton.pdf Graphic file (type pdf)
+ <use ../gfx/hamilton.pdf>
+Package pdftex.def Info: ../gfx/hamilton.pdf used on input line 151.
+(pdftex.def)             Requested size: 107.60008pt x 130.88667pt.
+
+[10
+
+ <./udg-logo.png>]
+File: ../gfx/hamilton.pdf Graphic file (type pdf)
+ <use ../gfx/hamilton.pdf>
+Package pdftex.def Info: ../gfx/hamilton.pdf used on input line 171.
+(pdftex.def)             Requested size: 107.60008pt x 130.88667pt.
+ [11
+
+ <./udg-logo.png>]
+<../gfx/grassmann.jpeg, id=207, 269.005pt x 327.2225pt>
+File: ../gfx/grassmann.jpeg Graphic file (type jpg)
+
+<use ../gfx/grassmann.jpeg>
+Package pdftex.def Info: ../gfx/grassmann.jpeg used on input line 186.
+(pdftex.def)             Requested size: 107.60008pt x 130.88667pt.
+
+<../gfx/grassmann-book.jpg, id=208, 73.9563pt x 114.4275pt>
+File: ../gfx/grassmann-book.jpg Graphic file (type jpg)
+
+<use ../gfx/grassmann-book.jpg>
+Package pdftex.def Info: ../gfx/grassmann-book.jpg used on input line 186.
+(pdftex.def)             Requested size: 153.64493pt x 237.73294pt.
+
+Overfull \vbox (30.5904pt too high) detected at line 186
+ []
+
+[12
+
+ <./udg-logo.png> <../gfx/grassmann.jpeg> <../gfx/grassmann-book.jpg>]
+<../gfx/gibbs.pdf, id=221, 269.005pt x 327.2225pt>
+File: ../gfx/gibbs.pdf Graphic file (type pdf)
+ <use ../gfx/gibbs.pdf>
+Package pdftex.def Info: ../gfx/gibbs.pdf used on input line 205.
+(pdftex.def)             Requested size: 107.60008pt x 130.88667pt.
+
+[13
+
+ <./udg-logo.png> <../gfx/gibbs.pdf>] [14
+
+ <./udg-logo.png>] [15
+
+ <./udg-logo.png>] [16
 
  <./udg-logo.png>]
 \tf@nav=\write6
@@ -1526,18 +1623,18 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 \tf@snm=\write8
 \openout8 = `presentacion.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 224.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 224.
  (./presentacion.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 224.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 224.
 Package rerunfilecheck Info: File `presentacion.out' has not changed.
-(rerunfilecheck)             Checksum: 61C73FC66E29595FB289FAE9C054838E;202.
+(rerunfilecheck)             Checksum: 5C93202F0CD18A8317175BAEEC7CAD58;185.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1546,30 +1643,31 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 224.
  ) 
 Here is how much of TeX's memory you used:
- 17899 strings out of 493029
- 337307 string characters out of 6136235
- 419492 words of memory out of 5000000
- 20980 multiletter control sequences out of 15000+600000
- 14947 words of font info for 55 fonts, out of 8000000 for 9000
+ 18096 strings out of 493029
+ 340183 string characters out of 6136235
+ 421678 words of memory out of 5000000
+ 21128 multiletter control sequences out of 15000+600000
+ 25908 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,20n,55p,413b,594s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/symbols/msbm10.pfb>
-Output written on presentacion.pdf (7 pages, 1048957 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+tt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
+m10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfso1000.pfb>
+Output written on presentacion.pdf (16 pages, 3464741 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 130 compressed objects within 2 object streams
- 19 named destinations out of 1000 (max. 500000)
- 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 322 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 223 words of extra memory for PDF output out of 10000 (max. 10000000)
 

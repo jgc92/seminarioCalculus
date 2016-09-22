@@ -3,7 +3,9 @@
 \usepackage[spanish]{babel}
 \selectlanguage{spanish}
 \usepackage[utf8]{inputenc}
-\usepackage{graphicx,hyperref,ru,url}
+\usepackage{graphicx,hyperref,ru,url,bm}
+
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
 
 \def\realR{\mathbb{R}} % Defines the way to use real numbers symbol R.
 
@@ -14,7 +16,7 @@
     Espacios Tangentes}
 
 % Optional: a subtitle to be dispalyed on the title slide
-\subtitle{Una introducción a superficies en $\realR^{3}$ y variedades en $\realR^{n}$}
+\subtitle{El concepto abstracto de curva en $\realR^{2}$ y variedad en $\realR^{n}$}
 
 % The author(s) of the presentation:
 %  - again first a short version to be displayed at the bottom;
@@ -32,8 +34,8 @@
 % Add a date and possibly the name of the event to the slides
 %  - again first a short version to be shown at the bottom of each slide
 %  - second the full date and event name for the title slide
-\date[Borrador \today]{
-  Borrador \today}
+\date[\today]{
+   \today}
 
 \begin{document}
 
@@ -45,59 +47,166 @@
 % highlighted. Note that the number of sections determines the size of the top 
 % bar, and hence the university name and logo. If you do not add any sections 
 % they will not be visible.
-\section{¿De qué trata?}
+\section{Introducción}
 
 \begin{frame}
-\frametitle{Una curva suave}
-\begin{columns}
-\column{0.5\textwidth}
-
-    $$\lim_{h \to 0} (f(x+h) - f(x) - f'(x) \cdot h) = 0$$
-
-\column{0.5\textwidth}
-\includegraphics[scale=0.08]{curva-suave}
-\end{columns}
+\frametitle{¿De qué trata?}
+  \begin{block}{}
+    \begin{itemize}
+        \item Definir el concepto general de curva en $\realR^{2}$ y su espacio tangente.
+        \item Una breve introducción al concepto de variedad y su espacio tangente.
+    \end{itemize}
+  \end{block}
 \end{frame}
 
 \begin{frame}
-\frametitle{Ya no es suave}
 \begin{columns}
 \column{0.5\textwidth}
-
-    $$\lim_{h \to 0} (f(x+h) - f(x) - f'(x) \cdot h) = 0$$
-
+    \begin{center}
+        \includegraphics[scale=0.25]{curva-suave}
+    \end{center}
 \column{0.5\textwidth}
     \begin{center}
-        \includegraphics[scale=0.25]{curva-pico}
+        \includegraphics[scale=0.35]{curva-no-suave}
     \end{center}
 \end{columns}
 \end{frame}
 
 \begin{frame}
-  \frametitle{¿Qué buscamos?}
-
-  \begin{block}{Preguntas clave}
+  \begin{block}{Estrategia}
     \begin{itemize}
-      \item ¿Cómo determinamos el espacio tangente?
-      \item ¿Qué dimensión tiene?
-      \item ¿Qué relación existe entre la dimensión del espacio tangente y el espacio normal?
+        \item Empezar con curvas suaves parametrizadas en $\realR^{2}$ y calcular su espacio tangente.
+        \item Generalizar la definición de curva en $\realR^{2}$.
+        \item Con nuestra nueva definición, determinar el espacio tangente.
+        \item Teorema de la función implícita para funciones $F(x,y) = 0$.
+        \item Conectar lo anterior con el concepto de curva en $\realR^{n}$.
     \end{itemize}
   \end{block}
 \end{frame}
 
-\section{Un pequeño adelanto}
+\begin{frame}
+    \frametitle{Antes que el vector}
+    \includegraphics[width=\textwidth]{../gfx/cardano-leibniz}
+\end{frame}
 
 \begin{frame}
-\frametitle{En general}
+    \includegraphics[width=\textwidth]{../gfx/newton-wessel}
+\end{frame}
 
-    Sea $f:\realR^{n} \mapsto \realR^{m}$, tenemos que
+\begin{frame}
+    \begin{center}
+        \includegraphics[width=0.6\textwidth]{../gfx/gauss-frame}
+    \end{center}
+\end{frame}
 
-    $$\lim_{h \to 0} \| f(x+h) - f(x) - T(x) \cdot h \| = 0$$
+\begin{frame}
+    \frametitle{La ambición de Hamilton}
+    \begin{columns}
+    \column{0.5\textwidth}
+        \begin{center}
+            \begin{figure}
+            \includegraphics[scale=0.4]{../gfx/hamilton}
+                \caption{William Rowan Hamilton (1843)}
+            \end{figure}
+        \end{center}
+    \column{0.5\textwidth}
+    \end{columns}
+\end{frame}
 
-    Cuando $f$ es diferenciable, el espacio tangente está bien determinado y es un espacio vectorial de dimensión $n$.
+\begin{frame}
+    \frametitle{La ambición de Hamilton}
+    \begin{columns}
+    \column{0.5\textwidth}
+        \begin{center}
+            \begin{figure}
+            \includegraphics[scale=0.4]{../gfx/hamilton}
+                \caption{William Rowan Hamilton (1843)}
+            \end{figure}
+        \end{center}
+    \column{0.5\textwidth}
+        Cuaternión:
+        \begin{eqnarray*}
+            Q &=& a + x\bm{i} + y\bm{j} + z\bm{k}
+        \end{eqnarray*}
+    \end{columns}
+\end{frame}
 
+\begin{frame}
+    \frametitle{La ambición de Hamilton}
+    \begin{columns}
+    \column{0.5\textwidth}
+        \begin{center}
+            \begin{figure}
+            \includegraphics[scale=0.4]{../gfx/hamilton}
+                \caption{William Rowan Hamilton (1843)}
+            \end{figure}
+        \end{center}
+    \column{0.5\textwidth}
+       Cuaternión:
+       \begin{eqnarray*}
+           Q &=& a + x\bm{i} + y\bm{j} + z\bm{k} \\
+             &=& SQ + VQ
+       \end{eqnarray*}
+    \end{columns}
+\end{frame}
 
+\begin{frame}
+    \frametitle{La ambición de Hamilton}
+    \begin{columns}
+    \column{0.5\textwidth}
+        \begin{center}
+            \begin{figure}
+            \includegraphics[scale=0.4]{../gfx/hamilton}
+                \caption{William Rowan Hamilton (1843)}
+            \end{figure}
+        \end{center}
+    \column{0.5\textwidth} 
+       Cuaternión:
+       \begin{eqnarray*}
+           Q &=& a + x\bm{i} + y\bm{j} + z\bm{k} \\
+           &=& SQ + VQ \\ \\
+           Q_{1}Q_{2} &=& -Q_{2}Q_{1}  
+       \end{eqnarray*}
+    \end{columns}
+\end{frame}
 
+\begin{frame}
+    \frametitle{Más sistemas vectoriales}
+    \begin{columns}
+    \column{0.5\textwidth}
+        \begin{center}
+            \begin{figure}
+            \includegraphics[scale=0.4]{../gfx/grassmann}
+                \caption{Hermann Grassmann (1844)}
+            \end{figure}
+        \end{center}
+    \column{0.5\textwidth} 
+        \includegraphics[width=\textwidth]{../gfx/grassmann-book}
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+    \begin{columns}
+    \column{0.5\textwidth}
+        \begin{center}
+            \begin{figure}
+            \includegraphics[scale=0.4]{../gfx/gibbs}
+                \caption{Josiah Willard Gibbs (1881)}
+            \end{figure}
+        \end{center}
+    \column{0.5\textwidth} 
+       \begin{eqnarray*}
+           \alpha . \beta &=& \beta . \alpha \quad \text{Gibbs} \\
+           S\alpha\beta &=& S\beta\alpha \quad \text{Tait} \\
+           \alpha \times \beta &=& -\beta \times \alpha \quad \text{Gibbs} \\  
+           V\alpha\beta &=& -V\beta\alpha \quad \text{Tait} \\  
+       \end{eqnarray*}
+    \end{columns}
+\end{frame}
+
+\section{pronto ...}
+
+\begin{frame}
 \end{frame}
 
 \section{pronto ...}
