@@ -1,172 +1,67 @@
 %************************************************
-\chapter{Diferenciación}\label{ch:01}
+\chapter{Vectores}\label{ch:vectores}
 %************************************************
 
-El propósito de este primer capítulo es establecer el lengüaje y notación matemática que usaremos 
-en este texto. Mucho de lo que veremos es simplemente una revisión del cálcuo elemental,
-especialmente diferenciación de funciones.
+El concépto de vector es básico para el estudio de funciones de varias variables. Da una motivación
+geométrica para todo lo que veremos. En esta sección platicaremos sobre algunas propiedades del vector
+que necesitaremos para las secciones siguientes.
 
-\section{El espacio Euclideo}
+Una propiedad significativa de todos los enunciados y demostraciones de esta seccion es que aplican
+facilmente para 2-dimensión, 3-dimensión y n-dimensión.
 
-El espacio euclidiano es frecuentemente usado en matemáticas sin ser formalmente definido. Al observar la
-esquina de un salón se puede ver el proceso familiar con el que se describen los ejes cartesianos y como la
-medida de tres números describen la posición de un punto. Aquí, en vez de decir que tres números describen
-la posición de un punto, los definimos como el punto mismo.
+\section{Un punto en el espacio}
 
-\begin{definition}
-    $\realR^{3}$ es el conjunto de todos los pares ordenados de números reales. El par $\bm{p} = (p_{1},p_{2},p_{3})$
-    es llamado un \emph{punto} de $\realR^{3}$.
-\end{definition}
+Sabemos que un número puede ser usado para representar un punto en una línea, siempre y cuando se
+elija una unidad de longuitud.
 
-En álgebra lineal se muestra como $\realR^{3}$ es un espacio vectorial sobre los números reales. De hecho si
-$\bm{p} = (p_{1},p_{2},p_{3})$ y $\bm{q} = (q_{1},q_{2},q_{3})$ son puntos en $\realR^{3}$, su suma es el punto
+Un par de números (un par ordenado) $(x,y)$ puede ser usado para representar un punto en un plano.
 
-$$ \bm{p} + \bm{q} = (p_{1} + q_{1}, p_{2} + q_{2}, p_{3} + q_{3}) $$
+imagen
 
-El múltiplo escalar del punto $\bm{p}$ por un número real $a$ es el punto
+Ahora observemos que $(x,y,z)$ puede ser usado para representar un punto en el espacio, esto es un
+punto en 3-dimensión, o 3-espacio. Simplemente agregamos un nuevo eje.
 
-$$ a\bm{p} = (ap_{1}, ap_{2}, ap_{3}) $$
-
-Estas dos operaciones satisfacen los axiomas de un espacio vectorial. Al punto $ 0 = (0,0,0)$ lo llamamos el
-\emph{origen} de $\realR^{3}$.
-
-\begin{definition}
-    Sean $x$, $y$, y $z$ funciones reales en $\realR^{3}$ tales que para cada punto $\bm{p} = (p_{1},p_{2},p_{3})$
-    $$ x(\bm{p}) = p_{1}, \quad y(\bm{p}) = p_{3}, \quad z(\bm{p}) = p_{3} $$
-
-\end{definition}
-
-\subsection{De cuaterniones a vectores}
-Los vectores como los conocemos nacieron en las primeras dos decadas del siglo IXX con la representación
-geométrica de los números complejos. En 1837, William Rowan Hamilton (1805-1865) mostró que los números
-complejos podian ser considerados abstractamente como pares ordenados $(a,b)$ de números reales. Esta idea
-era parte de una investigación para encontrar una forma de representar "números" de dos dimensiones en tres
-dimensiones, nadie logró hacerlo preservando las propiedades básicas de los reales y complejos. \\
-
-\begin{wrapfigure}{r}{0.3\textwidth}
-  \begin{center}
-    \includegraphics[width=0.3\textwidth]{gfx/hamilton}
-  \end{center}
-  \caption{Hamilton}
-\end{wrapfigure}
-
-Después de mucha frustración, Hamilton dejó su busqueda del tal sistema númerico de tres dimensiones e inventó
-uno de cuatro dimensiones, lo llamó cuaterniones. Los cuaterniones de Hamilton se denotaban $q = w + ix + jy + kz$, donde, $w$,$x$,$y$ y $z$ eran números reales.
-
-Aunque los cuaterniones fueron fuertemente aceptados por varios científicos, entre ellos Maxwell y Lord Kelvin,
-tenian un problema que incomodaba a los matemáticos. El producto de cuaterniones no es conmutativo ni homogeneo
-, es decir, $pq = -qp$.
-
-En el tiempo que Hamilton descubrió los cuaterniones, Hermann Grassmann (1809-1867) estaba escribiendo
-"The Calculus of Extension (1844)", mejor conocido por su título en alemán, Ausdehnungslehre. En 1832
-Grassmann comenzó el desarrollo de un nuevo cálculo geométrico y subsecuentemente usó este estudio para
-simplificar porciones de dos trabajos clásicos, Analytical Mechanics de Joseph Louis Lagrange y Celestial
-Mechanics de Pierre Simon Laplace. En su libro, Grassmann por primera vez expande la idea del concepto
-de un vector (como $ix + jy + kz$ de los cuaterniones) de dos a tres y $n$ dimensiones, lo cual expandios
-la idea de dimensión de un espacio.
-
-\begin{wrapfigure}{l}{0.3\textwidth}
-  \begin{center}
-    \includegraphics[width=0.3\textwidth]{gfx/clifford}
-  \end{center}
-  \caption{Clifford}
-\end{wrapfigure}
-
-William Kingdon Clifford (1845 - 1879) expresó profunda admiración por la obra de Grassmann, y claramente
-favoreció a los vectores sobre los cuaterniones. Clifford separó el producto de dos cuaterniones en dos
-productos diferentes de vectores, los cuales llamó producto escalar y producto vectorial, solucionando
-el problema del producto de cuaterniones.
-
-El desarrolo del álgebra de vectores y análisis vectorial como lo conocemos hoy día fue descrito en un conjunto
-de notas por el matemático J. Williard Gibbs (1839-1903) para sus estudiantes de la Universidad de Yale.
-
-\clearpage
+imagen
 
 
-\section{Límites y continuidad}
+En vez de usar $x,y,z$ podemos usar $(x_{1},x_{2},x_{3})$. A la línea se le puede llamar 1-espacio y
+al plano, naturalmente, 2-espacio.
 
-Esta sección está centrada en los conceptos de conjunto abierto, límite y continuidad; los conjuntos abiertos son necesarios para entender los límites y, a su vez, los límites son necesarios para entender continuidad y diferenciabilidad.
+Aunque no podemos dibujar un punto en 4-espacio, no hay nada que nos prevenga considerarlo, una cuarteta
+de números
 
-\begin{figure}[!ht]
-  \begin{center}
-      \includegraphics[width=0.5\linewidth]{gfx/conjunto-abierto}
-      \caption{}
-      \label{fig:boat1}
-  \end{center}
-\end{figure}
+$$(x_{1},x_{2},x_{3},x_{4})$$
 
-Además establecemos la convención de que el conjunto vacio $\emptyset$ es abierto.
-
-\begin{theorem}
-    Para cada $\bm{x_{0}} \in \realR^{n}$ y $r > 0$, $D_{r}(\bm{x_{0}})$ es un conjunto abierto.
-\end{theorem}
-
-\begin{proof}
-    Sea $\bm{x} \in D_{r}(\bm{x_{0}})$, esto es, sea $\|\bm{x} - \bm{x_{0}}\| < r$. De acuerdo con la definición
-    de conjunto abierto, debemos hallar un $s > 0$ tal que $D_{s}(\bm{x}) \subset  D_{r}(\bm{x_{0}})$.
-    Sea $s = r - \|\bm{x} - \bm{x_{0}}\|$, nótese que $s > 0$, pero que $s$ se hace más chico si $\bm{x}$ está
-    cerca del borde $D_{r}(\bm{x_{0}})$ \\
-
-    Para probar que $D_{s}(\bm{x}) \subset D_{r}(\bm{x_{0}})$, sea $\bm{y} \in D_{s}(\bm{x})$; esto es, sea
-    $\|\bm{y} - \bm{x}\| < s$. Queremos probar que también $\bm{y} \in D_{r}(\bm{x_{0}})$. Probar esto en vista
-    de la definición de un r-disco, equivale a demostrar que $\|\bm{y} -\bm{x_{0}}\| < r$. Usemos la desigualdad
-    del triángulo para esto
-
-    \begin{eqnarray*}
-        \|\bm{y} - \bm{x_{0}}\| &=& \|(\bm{y} - \bm{x}) + (\bm{x} - \bm{x_{0}})\| \\
-                              &\le& \|\bm{y} - \bm{x}\| + \|\bm{x} - \bm{x_{0}}\| \\
-                              &=& r
-    \end{eqnarray*}
-
-    De aquí que $\|\bm{y} - \bm{x_{0}}\| < r$. \qed
-
-\end{proof}
+es un punto en 4-espacio. Una quinteta seria un punto en 5-espacio, si continuamos llegamos a la siguiente
+definición.
 
 \begin{definition}
-    Sea $A \subset \realR^{n}$ es punto frontera de $A$ si toda vecindad de $\bm{x}$ contiene al menos un punto de $A$ y al menos un punto fuera de $A$.
+    Un punto en n-espacio es una n-tupla ordenado de números
+    $$ (x_{1},x_{2}, \ldots ,x_{n}) $$
+    con $n$ un entero positivo.
 \end{definition}
 
-En esta definición, $\bm{x}$ puede estar o no en $A$; si $\bm{x} \in A$, entonces $\bm{x}$ es un punto frontera si toda vecindad de $\bm{x}$ contiene al menos un punto
-que no esté en $A$. De manera análoga, si $\bm{x}$ no está en $A$, es un punto frontera si toda vecindad de
-$\bm{x}$ contiene al menos un punto de $A$.
+La mayoria de nuestros ejemplos serán para los casos $n=2$, $n=3$. Así podremos visualizarlos facilmente a
+lo largo de este texto. Pero nuestras definiciones y demostraciones comunmente serán para n-espacio y así
+cubrir ambos casos. Cabe mencionar que el caso $n=4$ ocurre en física.
 
-\begin{figure}[!ht]
-  \begin{center}
-      \includegraphics[width=0.5\linewidth]{gfx/puntos-frontera}
-      \caption{}
-      \label{fig:boat1}
-  \end{center}
-\end{figure}
+La idea de tomar al tiempo como cuarta coordenada es vieja. Ya desde la \emph{Encyclopédie} de Diderot, en
+el siglo XVIII, d'Alembert escribe en su artículo sobre dimensión:
 
+\emph{La manera de considerar cantidades con mas de tres dimensiones es tan natural como los otros casos,
+porque las letras algebraicas siempre pueden ser vistas como representación de números, ya sean racionales
+o no. Antes mencione que no era posible concivir mas de tres dimensiones. Un caballero astuto de quien soy
+íntimo cree lo contrario, que podria tomarse a la duración como la cuarta dimensión. Esta idea puede ser
+discutida, pero para mí, tiene su mérito por el solo hecho de ser nueva.}
 
-Ya estamos en posición de definir un límite. Durante toda la exposición siguiente, el dominio de definición de la función $f$ será un conjunto abierto $A$.
-Nos interesa hallar el límite de $f$ cuando $\bm{x} \in A$ tienda a un punto de $A$ o a un punto frontera de $A$.
+\begin{flushright}
+    \emph{Encyplopédie, Vol.4 (1754), p. 1010}
+\end{flushright}
 
-El concepto de límite es una herramienta básica y útil para el análisis de funciones; nos permite estudiar derivadas y de especial interes en este texto,
-derivadas parciales.
-
-\begin{definition}[Límite]
-    Sea $f:A \subset \realR^{n} \mapsto \realR^{m}$, donde $A$ es un conjunto abierto. Sea $\bm{x_{0}}$ un punto de $A$ o en la frontera de $A$, y sea
-    $V$ una vecindad de $\bm{b} \in \realR^{m}$. Decimos que $f$ está en $V$ conforme $\bm{x}$ tiende a $\bm{x_{0}}$ si existe una vecindad $U$ de 
-    $\bm{x_{0}}$ tal que $\bm{x} \neq \bm{x_{0}}$, $\bm{x} \in U$ y $\bm{x} \in A$ implica $f(x) \in V$. Decimos que $f(x)$ tiende a $\bm{b}$ cuando
-    $\bm{x}$ tiende a $\bm{x_{0}}$, es decir
-
-    $$ \lim_{\bm{x} \rightarrow \bm{x_{0}}} f(x) = b $$
-\end{definition}
-
-Del cálculo de una variable sabemos que el concepto de función continua está basado en la idea intuitiva de una función cuya gráfica es una
-curva sin romper, esto es, una curva sin saltos (una curva suave).
-
-\{ Añadir ejemplos de funciones continuas y no continuas \}
-
-\begin{definition}
-    Sea $f:A \subset \realR^{n} \mapsto \realR^{m}$ una función dada con dominio $A$. Sea $\bm{x_{0}} \in A$. Decimos que $f$ es continua
-    en $\bm{x_{0}}$ si y sólo si
-    $$ \lim_{\bm{x} \rightarrow \bm{x_{0}}} f(\bm{x}) = f(\bm{x_{0}})$$
-\end{definition}
-
-\section{Derivadas Parciales}
-
+%*****************************************
+%*****************************************
+%*****************************************
+%*****************************************
 %*****************************************
 
 

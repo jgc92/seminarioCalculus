@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  15 SEP 2016 11:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  28 SEP 2016 20:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1508,11 +1508,7 @@ LaTeX Info: Redefining \. on input line 41.
 LaTeX Info: Redefining \% on input line 41.
 
 (./FrontBackmatter/Contents.aux) (./FrontBackmatter/Preface.aux)
-(./Chapters/Chapter01.aux
-
-LaTeX Warning: Label `fig:boat1' multiply defined.
-
-))
+(./Chapters/Chapter01.aux))
 \openout1 = `ClassicThesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
@@ -1532,7 +1528,8 @@ LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Try loading font information for T1+pplj on input line 55.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pplj.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
 Package ragged2e Info: ABD: executing \RaggedRight on input line 55.
@@ -1626,7 +1623,7 @@ LaTeX Info: Redefining \% on input line 58.
 \openout2 = `FrontBackmatter/Titlepage.aux'.
 
  (./FrontBackmatter/Titlepage.tex
-<gfx/portada.png, id=56, 250.9375pt x 163.61125pt>
+<gfx/portada.png, id=44, 250.9375pt x 163.61125pt>
 File: gfx/portada.png Graphic file (type png)
  <use gfx/portada.png>
 Package pdftex.def Info: gfx/portada.png used on input line 23.
@@ -2029,168 +2026,48 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language append on input line 2.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 9.
+(babel)             in language append on input line 12.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 9.
+(babel)             in language append on input line 12.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 9.
+(babel)             in language append on input line 12.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 9.
+(babel)             in language append on input line 12.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 9.
+(babel)             in language append on input line 12.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 9.
+(babel)             in language append on input line 12.
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 17.
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 39.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 39.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 39.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 39.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 39.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 39.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 39.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 45.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 45.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 45.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 45.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 45.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 45.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 45.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 45.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 45.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 45.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 45.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 45.
+(babel)             in language append on input line 56.
 [5
 
 
 
-] <gfx/hamilton.pdf, id=125, 269.005pt x 327.2225pt>
-File: gfx/hamilton.pdf Graphic file (type pdf)
- <use gfx/hamilton.pdf>
-Package pdftex.def Info: gfx/hamilton.pdf used on input line 48.
-(pdftex.def)             Requested size: 100.80103pt x 122.61327pt.
-
-<gfx/clifford.pdf, id=126, 268.00125pt x 327.2225pt>
-File: gfx/clifford.pdf Graphic file (type pdf)
- <use gfx/clifford.pdf>
-Package pdftex.def Info: gfx/clifford.pdf used on input line 70.
-(pdftex.def)             Requested size: 100.80103pt x 123.07262pt.
-LaTeX Info: Redefining \sptext on input line 83.
-LaTeX Info: Redefining \. on input line 83.
-LaTeX Info: Redefining \% on input line 83.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 83.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 83.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 83.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 83.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 83.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 83.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 83.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 83.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 83.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 83.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 83.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 83.
-
-[6 <./gfx/hamilton.pdf> <./gfx/clifford.pdf>]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 86.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 86.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 86.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 86.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 86.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 86.
-
-<gfx/conjunto-abierto.png, id=141, 284.262pt x 284.262pt>
-File: gfx/conjunto-abierto.png Graphic file (type png)
-
-<use gfx/conjunto-abierto.png>
-Package pdftex.def Info: gfx/conjunto-abierto.png used on input line 92.
-(pdftex.def)             Requested size: 168.0pt x 168.00372pt.
-
-<gfx/puntos-frontera.png, id=142, 249.733pt x 45.771pt>
-File: gfx/puntos-frontera.png Graphic file (type png)
-
-<use gfx/puntos-frontera.png>
-Package pdftex.def Info: gfx/puntos-frontera.png used on input line 135.
-(pdftex.def)             Requested size: 168.0pt x 30.79211pt.
-LaTeX Info: Redefining \sptext on input line 139.
-LaTeX Info: Redefining \. on input line 139.
-LaTeX Info: Redefining \% on input line 139.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 139.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 139.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 139.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 139.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 139.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 139.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 139.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 139.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 139.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 139.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 139.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 139.
- [7
-
- <./gfx/conjunto-abierto.png>]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 168.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 168.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 168.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 168.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 168.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 168.
-)
+])
 LaTeX Info: Redefining \sptext on input line 86.
 LaTeX Info: Redefining \. on input line 86.
 LaTeX Info: Redefining \% on input line 86.
@@ -2218,7 +2095,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language append on input line 86.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language append on input line 86.
- [8 <./gfx/puntos-frontera.png>]
+ [6]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
  (./ClassicThesis.aux (./FrontBackmatter/Titlepage.aux)
@@ -2406,52 +2283,43 @@ RS)
 FrontBackmatter/Contents.tex
 FrontBackmatter/Preface.tex
 Chapters/Chapter01.tex
-gfx/hamilton.pdf
-gfx/clifford.pdf
-gfx/conjunto-abierto.png
-gfx/puntos-frontera.png
  ***********
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
 Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
-(rerunfilecheck)             Checksum: FB19005B73F7F8FD04B46DF7F0C03841;773.
-
-LaTeX Warning: There were multiply-defined labels.
-
+(rerunfilecheck)             Checksum: 593B29D9198A46510ACC83F0B9C89B79;536.
 Package logreq Info: Writing requests to 'ClassicThesis.run.xml'.
 \openout1 = `ClassicThesis.run.xml'.
 
  )
 (\end occurred when \iftrue on line 55 was incomplete) 
 Here is how much of TeX's memory you used:
- 23341 strings out of 493029
- 401015 string characters out of 6136235
- 720528 words of memory out of 5000000
- 26342 multiletter control sequences out of 15000+600000
- 92783 words of font info for 162 fonts, out of 8000000 for 9000
+ 23241 strings out of 493029
+ 399375 string characters out of 6136235
+ 719528 words of memory out of 5000000
+ 26270 multiletter control sequences out of 15000+600000
+ 85218 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,23n,90p,1159b,2085s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf
 -dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/eule
-r/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/e
-urb10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurb
-7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/fpl/fplrij8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sy
-mbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (11 pages, 214666 bytes).
+blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/eu
+ler/eurb10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler
+/eurm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eu
+rm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/fpl/fplrij8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palati
+no/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on ClassicThesis.pdf (9 pages, 145410 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 186 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
- 21122 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 170 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
+ 18518 words of extra memory for PDF output out of 20736 (max. 10000000)
 

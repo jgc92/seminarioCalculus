@@ -6,8 +6,5 @@
 \BOOKMARK [1][-]{section.0.2}{0.2 Objetivos}{}% 6
 \BOOKMARK [1][-]{section.0.3}{0.3 Requisitos Previos y Notaci\363n}{}% 7
 \BOOKMARK [-1][]{part.1}{}{}% 8
-\BOOKMARK [0][]{chapter.1}{1 Diferenciaci\363n}{part.1}% 9
-\BOOKMARK [1][-]{section.1.1}{1.1 El espacio Euclideo}{chapter.1}% 10
-\BOOKMARK [2][-]{subsection.1.1.1}{1.1.1 De cuaterniones a vectores}{section.1.1}% 11
-\BOOKMARK [1][-]{section.1.2}{1.2 L\355mites y continuidad}{chapter.1}% 12
-\BOOKMARK [1][-]{section.1.3}{1.3 Derivadas Parciales}{chapter.1}% 13
+\BOOKMARK [0][]{chapter.1}{1 Vectores}{part.1}% 9
+\BOOKMARK [1][-]{section.1.1}{1.1 Un punto en el espacio}{chapter.1}% 10
