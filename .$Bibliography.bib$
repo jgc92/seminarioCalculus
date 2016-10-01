@@ -1,0 +1,42 @@
+% This file was created with JabRef 2.10.
+% Encoding: Cp1252
+
+
+@Book{marsden:1991,
+  Title                    = {Cálculo Vectorial},
+  Author                   = {Jerrold E. Marsden, Anthony J. Tromba},
+  Publisher                = {Addison-Wesley},
+  Year                     = {1991},
+
+  Owner                    = {joaquin},
+  Timestamp                = {2016.09.29}
+}
+
+@Book{Lang:1970,
+  Title                    = {Introducction to Linear Algebra},
+  Author                   = {Serge Lang},
+  Publisher                = {Springer},
+  Year                     = {1970},
+
+  Owner                    = {joaquin},
+  Timestamp                = {2016.09.29}
+}
+
+@Book{thompson:1910,
+  Title                    = {Calculus Made Easy},
+  Author                   = {Silvanus P. Thompson},
+  Publisher                = {The Macmillan Company},
+  Year                     = {1910},
+
+  Owner                    = {joaquin},
+  Timestamp                = {2016.09.29}
+}
+
+@Misc{hamiltonBio,
+  Title                    = {Hamilton Biography},
+  HowPublished             = {\url{http://www-history.mcs.st-andrews.ac.uk/Biographies/Hamilton.html}},
+
+  Owner                    = {joaquin},
+  Timestamp                = {2016.09.29}
+}
+

@@ -1,37 +1,15 @@
-Cuando consideramos una función $f:\realR\mapsto\realR$, se tiene que $f$ es diferenciable en $a$ si la derivada de $f$ en $a$ existe, es decir $f'(a)$ existe. En este caso, el espacio tangente a $f$ en $a$ es una línea recta, esto es un espacio vectorial de dimensión 1. En general, si $f:\realR^{n}\mapsto\realR^{m}$, se tiene que $f$ es continua en $a$ si existe una matriz $T$ tal que
+\section{Introducción}
+En este texto hablaremos sobre qué es una curva \emph{suave} en $\realR^{2}$ y $\realR^{3}$. Cómo calcular su vector tangente en cualquier punto de la curva y así determinar
+su espacio tangente asociado.
 
-    $$\lim_{h \to 0} \| f(x+h) - f(x) - T(x) \cdot h \| = 0$$
+Llevaremos nuestra primera definición de curva a una forma más general y veremos como calcular el espacio tangente con esta nueva definición. Para esto veremos el teorema
+de la función implícita (funciones $F(x,y)=0$).
 
-Cuando $f$ es diferenciable, el espacio tangente está bien determinado y es un espacio vectorial de dimensión $n$.
-
-Sin embargo cuando $f$ no es diferenciable en $a$, ¿Cómo determinamos el espacio tangente?, ¿Qué dimensión tiene?, ¿Que relación existe entre la dimensión del espacio tangente y la dimensión del espacio normal?.
-
-Estas preguntas pueden ser extendidas a espacios mas generales como las variedades.
-En el presente texto nos introduciremos al concepto de variedad y espacio tangente asociado a una variedad.
-
+Terminaremos con una breve introdución al concepto de variedad de dimension $n$ y su espacio tangente.
 \section{Justificación}
-
-Es común ver en los estudiantes de cálculo clásico una deficiencia en el concepto de que es una superficie (variedad) y como tiene su propio cálculo diferencial estrictamente comparable con el cálculo familiar en el plano.\footnote{Mas adelante veremos como el último es consecuencia del primero.}
-
-Esta exposición provee la noción de variedades diferenciables, la cual es indispensable en algunas ramas de las Matemáticas y sus aplicaciones basadas en el cálculo.
+En los cursos de Cálculo se define el concepto de superficie y el espacio tangente asociado a la superficie. Una superficie es un caso particular de un objeto más abstracto llamado variedad. Las variedades son objetos que se estudian en distintas áreas de la matemática: Topología, Análisis Matemático, Geometría Diferencial, Geometría Algebraica, etc. Es por este motivo que resulta de gran interés para cualquier estudiante de la carrera en matemáticas. En esta exposición realizamos un estudio de las variedades de dimensión dos y tres las cuales generalizan a las superficies y detallaremos la manera de calcular el espacio tangente.
 
 \section{Objetivos}
-
-El objetivo de este texto es definir de manera general el concepto de superficie en $\realR^{3}$ y variedad en $\realR^{n}$.
-Determinar el plano tangente de una superficie en $\realR^{3}$ (variedad en $\realR^{n}$). Determinar la dimensión del espacio tangente a una superficie (variedad) en un punto $p$. Definir el concepto de curvatura; con este estudio se darán algunos ejemplos de cálculo de curvatura y su aplicación a la Física.
-
-\section{Requisitos Previos y Notación}
-
-Suponemos que el lector ha estudiado cálculo de funciones de una variable real, incluida la geometría analítica en el plano, asi como nociones de teoría matricial y álgebra lineal en especial transformaciones lineales. También suponemos que el lector esta familiarizado con funciones del cálculo elemental, como $sin(x)$, $cos(x)$, $e^{x}$ y $ln(x)$. En caso de no estar familiarizado vease el ápendice \{ incluir apendice \}.
-
-Ahora enunciaremos las notaciones que usaremos, esto se puede leer rápidamente o saltarse y después volver si fuera necesario.
-
-A la colección de numeros reales la denotaremos $\realR$. Cuando escribimos $a \in \realR$ nos referimos que $a$ es un elemento del conjunto $\realR$, es decir, que $a$ es un número real. Dados dos números reales $a$ y $b$ con $a < b$, podemos formar el intervalo cerrado $[a,b]$ formado por todos los $x$ tales que $a \le x \le b$, y el intervalo abierto $(a,b)$ formado por todos los $x$ tales que $a < x < b$.
-
-Si escribimos $A \subset \realR$, nos referimos a que $A$ es un subconjunto de $\realR$. El símbolo $A \cup B$ significa la unión de $A$ y $B$, esto es, los elementos que están tanto en $A$ como en $B$. Escribimos $A \cap B$, que significa la intersección de $A$ y $B$, esto es, los elementos de $A$ y $B$ que están tanto en $A$ como en $B$. $A \ B$ lo usamos para denotar elemento de $A$ que no están en $B$.
-
-Una función $f:A \mapsto B$ es una regla que asigna a cada $a \in A$ un elemento especifico $f(a)$ de $B$. Que la función $f$ mande $a$ a $f(a)$ se denota por $a \mapsto f(a)$.
-
-\{Incluir imagenes de funciones e intervalos\} 
+Definir el concépto general de curva en $\realR^{2}$ y $\realR^{3}$ y su espacio tangente. Introducir brevemente el concepto de variedad y su espacio tangente.
 %*****************************************
 

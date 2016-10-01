@@ -74,6 +74,36 @@
 % use \cleardoublepage here to avoid problems with pdfbookmark
 \cleardoublepage
 \include{FrontBackmatter/Preface}
+\ctparttext{Los cuaterniones vienen de Hamilton \ldots
+y han sido maldición pura para quien, de alguna forma,
+los ha tocado. El vector es un sobreviviente inútil \ldots
+y jamás ha sido de la más mínima utilidad para ningún ser
+viviente.\\
+\begin{flushright}
+    \emph{Lord Kelvin}
+\end{flushright}
+}
+\part{}
+\include{Chapters/Chapter01}
+\include{Chapters/Chapter02}
+
+\ctparttext{Yo me alejo con espanto y horror, de la triste
+maldad de las funciones que no tienen derivadas.\\
+\begin{flushright}
+    \emph{Charles Hermite}
+\end{flushright}
+}
+\part{}
+\include{Chapters/Chapter03}
+%\addtocontents{toc}{\protect\clearpage} % <--- just debug stuff, ignore
+%\include{Chapters/Chapter03}
+%\include{multiToC} % <--- just debug stuff, ignore for your documents
+% ********************************************************************
+% Backmatter
+%*******************************************************
+\appendix
+%\renewcommand{\thechapter}{\alph{chapter}}
+\cleardoublepage
 \ctparttext{Algunos trucos de cálculo son bastante fáciles,
 otros son muy difíciles. Los que escriben los libros de matemáticas
 avanzadas pocas veces se toman la molestia de mostrar cuán fáciles
@@ -82,21 +112,11 @@ son los cálculos fáciles.\\
     \emph{Silvanus P. Thompson, Calculus Made Easy (1910)}
 \end{flushright}
 }
-\part{}
-\include{Chapters/Chapter01}
-\cleardoublepage
-%\include{Chapters/Chapter02}
-%\addtocontents{toc}{\protect\clearpage} % <--- just debug stuff, ignore
-%\include{Chapters/Chapter03}
-%\include{multiToC} % <--- just debug stuff, ignore for your documents
-% ********************************************************************
-% Backmatter
-%*******************************************************
-%\appendix
-%\renewcommand{\thechapter}{\alph{chapter}}
-\cleardoublepage
-%\part{Appendix}
-%\include{Chapters/Chapter0A}
+
+
+\part{Appendix}
+\include{Chapters/Chapter0A}
+\include{FrontBackmatter/Bibliography}
 %********************************************************************
 % Other Stuff in the Back
 %*******************************************************
