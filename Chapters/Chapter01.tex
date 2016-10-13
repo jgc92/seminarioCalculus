@@ -2,27 +2,30 @@
 \chapter{Vectores}\label{ch:vectores}
 %************************************************
 
-El concépto de vector es básico para el estudio de funciones de varias variables. Da una motivación
+El concepto de vector es básico para el estudio de funciones de varias variables, da una motivación
 geométrica para todo lo que veremos. En esta sección platicaremos sobre algunas propiedades del vector
-que necesitaremos para las secciones siguientes.
+que necesitamos para las secciones siguientes.
 
-Una propiedad significativa de todos los enunciados y demostraciones de esta seccion es que aplican
-facilmente para 2-dimensión, 3-dimensión y n-dimensión.
+Una propiedad significativa de todos los enunciados de esta secci\'on es que aplican
+f\'acilmente para 2-dimensión, 3-dimensión y n-dimensión.
 
 \section{Un punto en el espacio}
 
-Sabemos que un número puede ser usado para representar un punto en una línea, siempre y cuando se
+Sabemos que un número puede ser usado para representar un punto en una línea recta, siempre y cuando se
 elija una unidad de longuitud.
 
 Un par de números (un par ordenado) $(x,y)$ puede ser usado para representar un punto en un plano.
 
-imagen
+\begin{figure}[!ht]%
+    \centering
+    \subfloat[Punto en el plano]{{\includegraphics[width=0.35\textwidth]{gfx/punto-plano} }}%
+    \qquad
+    \subfloat[Punto en el espacio]{{\includegraphics[width=0.5\textwidth]{gfx/punto-espacio} }}%
+    \label{fig:example}%
+\end{figure}
 
 Ahora observemos que $(x,y,z)$ puede ser usado para representar un punto en el espacio, esto es un
 punto en 3-dimensión, o 3-espacio. Simplemente agregamos un nuevo eje.
-
-imagen
-
 
 En vez de usar $x,y,z$ podemos usar $(x_{1},x_{2},x_{3})$. A la línea se le puede llamar 1-espacio y
 al plano, naturalmente, 2-espacio.
@@ -41,16 +44,18 @@ definición.
     con $n$ un entero positivo.
 \end{definition}
 
-La mayoria de nuestros ejemplos serán para los casos $n=2$, $n=3$. Así podremos visualizarlos facilmente a
+La mayoria de nuestros ejemplos serán para los casos $n=2$, $n=3$. Así podremos visualizarlos f\'acilmente a
 lo largo de este texto. Pero nuestras definiciones y demostraciones comunmente serán para n-espacio y así
 cubrir ambos casos. Cabe mencionar que el caso $n=4$ ocurre en física.
 
 La idea de tomar al tiempo como cuarta coordenada es vieja. Ya desde la \emph{Encyclopédie} de Diderot, en
 el siglo XVIII, d'Alembert escribe en su artículo sobre dimensión:
 
+\vspace{0.5cm}
+
 \emph{La manera de considerar cantidades con mas de tres dimensiones es tan natural como los otros casos,
 porque las letras algebraicas siempre pueden ser vistas como representación de números, ya sean racionales
-o no. Antes mencione que no era posible concivir mas de tres dimensiones. Un caballero astuto de quien soy
+o no. Antes mencion\'e que no era posible imaginarse mas de tres dimensiones. Un caballero astuto de quien soy
 íntimo cree lo contrario, que podria tomarse a la duración como la cuarta dimensión. Esta idea puede ser
 discutida, pero para mí, tiene su mérito por el solo hecho de ser nueva.}
 
@@ -58,7 +63,7 @@ discutida, pero para mí, tiene su mérito por el solo hecho de ser nueva.}
     \emph{Encyplopédie, Vol.4 (1754), p. 1010}
 \end{flushright}
 
-Observe como d'Alembert se refiere a un \emph{caballero astuto} cuando al paracer se refiere a si mismo. El procede
+Observe como d'Alembert se refiere a un \emph{caballero astuto} cuando al parecer se refiere a si mismo. El procede
 con cautela al proponer una idea avanzada para su tiempo, la cual se hizo mas común en el siglo XX.
 
 No nos queda de otra que definir como sumar puntos.
@@ -74,6 +79,34 @@ No nos queda de otra que definir como sumar puntos.
     $$ A + B = (-2,7) $$
 \end{myExample}
 
+\begin{myExample}
+    En el espacio, si $A=(-1,\pi,3)$ y $B=(\sqrt{2},7,-2)$, entonces
+    $$ A + B = (\sqrt{2} - 1, \pi + 7, 1) $$
+\end{myExample}
+
+\begin{definition}
+    Si $c$ es cualquier número, entonces
+    $$ cA = (ca_{1},\ldots,ca_{n}) $$
+\end{definition}
+
+\begin{myExample}
+    Sea $A=(1,2)$ y $c=3$. Entonces
+    $$cA = (3,6)$$
+\end{myExample}
+
+\begin{figure}[!ht]%
+    \centering
+    \subfloat[Punto en el plano]{{\includegraphics[width=0.45\textwidth]{gfx/producto-escalar} }}%
+    \qquad
+    \subfloat[Punto en el espacio]{{\includegraphics[width=0.45\textwidth]{gfx/producto-escalar2} }}%
+    \label{fig:example}%
+\end{figure}
+
+
+Observe como multiplicar el vector $A$ por $3$ equivale a \emph{estirar} el vector $3$ veces, de igual forma
+si $c=\frac{1}{2}$ entonces $cA$ seria la mitad de $A$. Si $c=-1$ entonces $cA$ tiene la misma \emph{magnitud}
+que $A$ pero en sentido contrario.
+
 \section{Vector localizado}
 
 \begin{definition}
@@ -85,6 +118,8 @@ Podemos obsvervar que en el plano,
 $$ b_{1} = a_{1} + (b_{1} - a_{1}) $$
 De forma similar,
 $$ b_{2} = a_{2} + (b_{2} - a_{2}) $$
+
+Cuando el punto inicial es el origen y el punto final es cualquier otro punto $A$ denotaremos al vector simplemente como $A$.
 
 \section{Producto punto}
 
@@ -113,12 +148,18 @@ Veamos ahora unas propiedades básicas de este producto.
         $$ A \cdot A > 0 $$
 \end{labeling}
 
+Algo de extrema importancia para este texto es el concepto de perpendicularidad entre vectores, a partir
+de esto definiremos, en capítulos posteriores, lo que es un vector tangente.
+
 \begin{definition}
     Sean $A$ y $B$ dos vectores. $A$ y $B$ son \emph{perpendiculares} (ortogonales) si
     $$ A \cdot B = 0 $$
 \end{definition}
 
 \section{La norma de un vector}
+
+Una pregunta natural al estudiar vectores es ¿qué longuitud (magnitud) tienen?. Veremos a continuación
+la definición de \emph{norma} de un vector, la cual contesta a nuestra pregunta.
 
 \begin{definition}
     La norma de un vector $A$ es el número,
@@ -153,7 +194,7 @@ $$ \| X - P \| = a $$
 es llamado \emph{circurferencia} de radio $a$ y centro en $P$.
 
 Si transladamos P al espacio tridimensional, los conjuntos anteriores son llamados \emph{bola abierta},
-\emph{bola cerrada}, y \emph{esféra} respectivamente.
+\emph{bola cerrada} y \emph{esféra} respectivamente.
 
 \section{De cuaterniones a vectores}
 Los vectores como los conocemos nacieron en las primeras dos decadas del siglo IXX con la representación

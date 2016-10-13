@@ -6,8 +6,8 @@
 Esta sección está centrada en los conceptos de conjunto abierto, límite y continuidad; los conjuntos abiertos son necesarios para entender los límites y, a su vez, los límites son necesarios para entender continuidad y diferenciabilidad.
 
 Comenzamos la formulación del concepto de conjunto abierto mediante la definición de disco abierto. Sea $x_{0}
-\in  \realR^{n}$ y sea $r$ un número real positivo. El disco abierto (o bala abierta) de radio $r$ y centro 
-en $x_{0}$, es el conjunto de puntos $x$ tales que $\|x-x_{0}\|$ < r, como vimos el capítulo anterior. Este 
+\in  \realR^{n}$ y sea $r$ un número real positivo. El disco abierto (o bola abierta) de radio $r$ y centro 
+en $x_{0}$, es el conjunto de puntos $x$ tales que $\|x-x_{0}\| < r $, como vimos el capítulo anterior. Este 
 conjunto lo denotaremos por $D_{r}(x_{0})$.
 
 \begin{definition}
@@ -106,6 +106,59 @@ Para precisar estas ideas necesitamos una definición sensata de lo que entedemo
 En realidad esta definición no es tan sencilla, como pudiera pensarse. Necesitamos introducir el concepto de \emph{derivada parcial}. Este concepto se
 basa en nuestro conocimiento del cálculo en una variable.
 
+Entonces comenzaremos con definir que significa que $f(x)$ es diferenciable en un punto $x$, es decir, la derivada de $f(x)$ en $x$. Para esto usaremos
+nuestra definición de límite.
+
+\begin{definition}
+    Sea $f$ una función de valor real definida en una vecindad abierta de $x$. Entonces $\frac{df}{dx}$ (la derivada de $f$ respecto a $x$) es
+    $$ \lim_{h \rightarrow 0} \frac{f(x+h) - f(x)}{h} $$
+\end{definition}
+
+En ocasiones usaremos la notación $f'(x)$ para denotar la derivada de $f$ respecto $x$.
+
+\begin{example}
+    Sea $f(x)=x^{2}$, entonces
+    \begin{eqnarray*}
+        f'(3) &=& \lim_{h \rightarrow 0} \frac{f(3+h)-f(3)}{h} \\
+              &=& \lim_{h \rightarrow 0} \frac{(3+h)^{2}-(3)^{2}}{h} \\
+              &=& \lim_{h \rightarrow 0} (6 + h) \\
+              &=& 6
+    \end{eqnarray*}
+    Entonces $f'(3) = 6$.
+\end{example}
+
+\begin{figure}[!ht]
+  \begin{center}
+      \includegraphics[width=0.6\linewidth]{gfx/derivative-example}
+      \caption{$f(x)=x^{2}$}
+      \label{fig:boat1}
+  \end{center}
+\end{figure}
+
+De forma geométrica, la derivada nos dice la \emph{pendiente} de la recta tangente a $f$ en un punto $x$.
+
+Que una función $f(x)$ sea diferenciable en todo su dominio quiere decir que para cualquier $x$ en el dominio de $f(x)$ existe
+$f'(x)$, esto nos dice que la gráfica de $f(x)$ es suave. Esto nos acerca a la definición de \emph{curva}. Un ejemplo típico 
+de una gráfica no suave la vemos en el siguiente ejemplo
+
+\begin{myExample}
+    Sea $f(x) = |x|$ con $f:\realR \rightarrow \realR^{2}$, vemos que la derivada en $x=0$ no existe.
+    \begin{eqnarray*}
+        f'(0) &=& \lim_{h \rightarrow 0} \frac{f(h) - f(0)}{h} \\
+              &=& \lim_{h \rightarrow 0} \frac{0}{0}
+    \end{eqnarray*}
+\end{myExample}
+
+\begin{figure}[!ht]
+  \begin{center}
+      \includegraphics[width=0.6\linewidth]{gfx/grafica-abs}
+      \caption{gráfica no suave}
+      \label{fig:boat1}
+  \end{center}
+\end{figure}
+
+Transportando esta idea a funciones de varias variables surge la definición de \emph{derivada parcial}.
+
 \begin{definition}
     Sean $U \subset \realR^{n}$ un conjunto abierto y $f:U \subset \realR^{n} \rightarrow \realR$ una función con valores reales. Entonces $\partial f/\partial x_{1},
     \ldots, \partial f/ \partial x_{n}$, las derivadas parciales de $f$ respecto a la primera, segunda, \dots, n-ésima variable son las funciones con valores
@@ -116,6 +169,17 @@ basa en nuestro conocimiento del cálculo en una variable.
     \end{eqnarray*}
     si existen los límites, donde $1 \le j \le n$ y $e_{j}$ es el j-ésimo vector de la base canónica.
 \end{definition}
+
+En otras palabras, $\partial f / \partial x_{j}$ es simplemente la derivada de $f$ respecto a la variable $x_{j}$, manteniendo las otras variables fijas.
+
+\begin{myExample}
+    Si $f(x,y) = x^{2}y+y^{3}$, hallar $\partial f / \partial x$ y $\partial f / \partial y$.
+    Para hallar $\partial f / \partial x$ mantenemos $y$ constante y diferenciamos sólo respecto de $x$, entonces
+    $$ \frac{\partial f}{\partial x} = \frac{d(x^{2}y+y^{3})}{dx} = 2xy $$
+
+    De forma análoga, tenemos que
+    $$ \frac{\partial f}{\partial y} = \frac{d(x^{2}y+y^{3})}{dy} = x^{2} + 3y^{2} $$
+\end{myExample}
 %*****************************************
 %*****************************************
 %*****************************************
