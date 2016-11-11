@@ -42,8 +42,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.6}Espacio tangente a una curva parametrizada}{22}{section.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Appendix}}{23}{part.3}
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {1-variedad}}{23}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {C\IeC {\'a}lculo en una variable}}{25}{appendix.Alph1}
+\contentsline {section}{\numberline {4.1}Teorema de la funci\'on impl\'icita}{23}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Bibliografia}{26}{section.Alph1.1}
+\contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Appendix}}{25}{part.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {C\IeC {\'a}lculo en una variable}}{27}{appendix.Alph1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Bibliografia}{28}{section.Alph1.1}
