@@ -62,14 +62,9 @@
 \newtheorem{proposition}[theorem]{Proposición}
 \newtheorem{corollary}[theorem]{Corolario}
 \newtheorem{definition}[theorem]{Definición}
+\newtheorem{example}[section]{Ejemplo}
 \newtheorem{myExample}[section]{Ejemplo}
-
-\newenvironment{proof}[1][Demostración]{\begin{trivlist}
-\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
-\newenvironment{example}[1][Ejemplo]{\begin{trivlist}
-\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
-\newenvironment{remark}[1][Remark]{\begin{trivlist}
-\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newtheorem{proof}[section]{Demostraci\'on}
 
 \newcommand{\qed}{\nobreak \ifvmode \relax \else
       \ifdim\lastskip<1.5em \hskip-\lastskip
@@ -92,7 +87,6 @@
 % ****************************************************************************************************
 % 3. Loading some handy packages
 % ****************************************************************************************************
-\usepackage[document]{ragged2e} %text alignment
 
 % ******************************************************************** 
 % Packages with options that might require adjustments
@@ -139,6 +133,7 @@
 
 \usepackage{bm}
 \usepackage{wrapfig}
+\usepackage{enumerate}
 
 % ****************************************************************************************************
 

@@ -7,7 +7,7 @@ Esta sección está centrada en los conceptos de conjunto abierto, límite y con
 
 Comenzamos la formulación del concepto de conjunto abierto mediante la definición de disco abierto. Sea $x_{0}
 \in  \realR^{n}$ y sea $r$ un número real positivo. El disco abierto (o bola abierta) de radio $r$ y centro 
-en $x_{0}$, es el conjunto de puntos $x$ tales que $\|x-x_{0}\| < r $, como vimos el capítulo anterior. Este 
+en $x_{0}$, es el conjunto de puntos $x$ tales que $\|x-x_{0}\| < r $, como vimos en el ejemplo \ref{ex:distance}. Este 
 conjunto lo denotaremos por $D_{r}(x_{0})$.
 
 \begin{definition}
@@ -45,7 +45,7 @@ Además establecemos la convención de que el conjunto vacio $\emptyset$ es abie
         \|\bm{y} - x_{0}\| &=& \|(\bm{y} - x) + (x - x_{0})\| \\
                               &\le& \|\bm{y} - x\| + \|x - x_{0}\| \\
                               &<& s + \|x-x_{0}\| \\
-                              &=& r
+                              &=& r \text{.}
     \end{eqnarray*}
 
     De aquí que $\|\bm{y} - x_{0}\| < r$. \qed
@@ -85,7 +85,7 @@ derivadas parciales.
 \end{definition}
 
 Del cálculo de una variable sabemos que el concepto de función continua está basado en la idea intuitiva de una función cuya gráfica es una
-curva sin romper, esto es, una curva sin saltos (una curva suave).
+curva sin romper, esto es, una curva sin saltos.
 
 \begin{definition}
     Sea $f:A \subset \realR^{n} \mapsto \realR^{m}$ una función dada con dominio $A$. Sea $x_{0} \in A$. Decimos que $f$ es continua
@@ -117,21 +117,21 @@ nuestra definición de límite.
 En ocasiones usaremos la notación $f'(x)$ para denotar la derivada de $f$ respecto $x$.
 
 \begin{example}
-    Sea $f(x)=x^{2}$, entonces
+    Sea $f(x)=x^{2}$ ( figura \ref{fig:derivative} ), entonces
     \begin{eqnarray*}
-        f'(3) &=& \lim_{h \rightarrow 0} \frac{f(3+h)-f(3)}{h} \\
-              &=& \lim_{h \rightarrow 0} \frac{(3+h)^{2}-(3)^{2}}{h} \\
-              &=& \lim_{h \rightarrow 0} (6 + h) \\
-              &=& 6
+        f'(1) &=& \lim_{h \rightarrow 0} \frac{f(1+h)-f(1)}{h} \\
+              &=& \lim_{h \rightarrow 0} \frac{(1+h)^{2}-(1)}{h} \\
+              &=& \lim_{h \rightarrow 0} (2 + h) \\
+              &=& 2 \text{.}
     \end{eqnarray*}
-    Entonces $f'(3) = 6$.
+    Entonces $f'(1) = 2$.
 \end{example}
 
 \begin{figure}[!ht]
   \begin{center}
       \includegraphics[width=0.5\linewidth]{gfx/derivative-example}
       \caption{$f(x)=x^{2}$}
-      \label{fig:boat1}
+      \label{fig:derivative}
   \end{center}
 \end{figure}
 
@@ -139,21 +139,21 @@ De forma geométrica, la derivada nos dice la \emph{pendiente} de la recta tange
 
 Que una función $f(x)$ sea diferenciable en todo su dominio quiere decir que para cualquier $x$ en el dominio de $f(x)$ existe
 $f'(x)$, esto nos dice que la gráfica de $f(x)$ es suave. Esto nos acerca a la definición de \emph{curva}. Un ejemplo típico 
-de una gráfica no suave la vemos en el siguiente ejemplo
+de una gráfica no suave la vemos a continuci\'on:
 
-\begin{myExample}
-    Sea $f(x) = |x|$ con $f:\realR \rightarrow \realR^{2}$, vemos que la derivada en $x=0$ no existe.
+\begin{example}
+    Sea $f(x) = |x|$ ( figura \ref{fig:no-derivative} ) con $f:\realR \rightarrow \realR^{2}$, vemos que la derivada en $x=0$ no existe.
     \begin{eqnarray*}
         f'(0) &=& \lim_{h \rightarrow 0} \frac{f(h) - f(0)}{h} \\
-              &=& \lim_{h \rightarrow 0} \frac{0}{0}
+              &=& \lim_{h \rightarrow 0} \frac{0}{0} \text{.}
     \end{eqnarray*}
-\end{myExample}
+\end{example}
 
 \begin{figure}[!ht]
   \begin{center}
-      \includegraphics[width=0.6\linewidth]{gfx/grafica-abs}
+      \includegraphics[width=0.55\textwidth]{gfx/grafica-abs}
       \caption{gráfica no suave}
-      \label{fig:boat1}
+      \label{fig:no-derivative}
   \end{center}
 \end{figure}
 
@@ -175,10 +175,10 @@ En otras palabras, $\partial f / \partial x_{j}$ es simplemente la derivada de $
 \begin{myExample}
     Si $f(x,y) = x^{2}y+y^{3}$, hallar $\partial f / \partial x$ y $\partial f / \partial y$.
     Para hallar $\partial f / \partial x$ mantenemos $y$ constante y diferenciamos sólo respecto de $x$, entonces
-    $$ \frac{\partial f}{\partial x} = \frac{d(x^{2}y+y^{3})}{dx} = 2xy $$
+    $$ \frac{\partial f}{\partial x} = \frac{d(x^{2}y+y^{3})}{dx} = 2xy \text{.} $$
 
     De forma análoga, tenemos que
-    $$ \frac{\partial f}{\partial y} = \frac{d(x^{2}y+y^{3})}{dy} = x^{2} + 3y^{2} $$
+    $$ \frac{\partial f}{\partial y} = \frac{d(x^{2}y+y^{3})}{dy} = x^{2} + 3y^{2} \text{.} $$
 \end{myExample}
 %*****************************************
 %*****************************************

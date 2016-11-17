@@ -30,7 +30,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}L\IeC {\'\i }mites y continuidad}{11}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Diferenciaci\IeC {\'o}n}{13}{section.2.2}
+\contentsline {section}{\numberline {2.3}Diferenciaci\IeC {\'o}n}{13}{section.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {ii}\spacedlowsmallcaps {}}{17}{part.2}
 \defcounter {refsection}{0}\relax 
@@ -42,12 +42,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.6}Espacio tangente a una curva parametrizada}{22}{section.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {1-variedad}}{23}{chapter.4}
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Subvariedad 1-dimensional}}{23}{chapter.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Teorema de la funci\'on impl\'icita}{23}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Appendix}}{25}{part.3}
+\contentsline {subsection}{\numberline {4.3.1}Caso especial: curva}{25}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {C\IeC {\'a}lculo en una variable}}{27}{appendix.Alph1}
+\contentsline {section}{\numberline {4.4}Subvariedad 1-dimensional}{25}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Bibliografia}{28}{section.Alph1.1}
+\contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Appendix}}{29}{part.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Algunas definiciones \'utiles}}{31}{appendix.Alph1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Bibliografia}{32}{section.Alph1.1}

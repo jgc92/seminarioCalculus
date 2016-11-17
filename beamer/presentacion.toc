@@ -2,6 +2,5 @@
 \beamer@endinputifotherversion {3.36pt}
 \select@language {spanish}
 \beamer@sectionintoc {1}{Introducci\IeC {\'o}n}{2}{0}{1}
-\beamer@sectionintoc {2}{pronto ...}{14}{0}{2}
-\beamer@sectionintoc {3}{pronto ...}{15}{0}{3}
-\beamer@sectionintoc {4}{pronto ...}{16}{0}{4}
+\beamer@sectionintoc {2}{Curvas}{5}{0}{2}
+\beamer@sectionintoc {3}{Subvariedad}{8}{0}{3}

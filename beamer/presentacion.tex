@@ -54,22 +54,10 @@
   \begin{block}{}
     \begin{itemize}
         \item Definir el concepto general de curva en $\realR^{2}$ y su espacio tangente.
-        \item Una breve introducción al concepto de variedad y su espacio tangente.
+        \item Una breve introducción al concepto de subvariedad y su espacio tangente.
+        \item Demostrar que el espacio tangente a una k-subvariedad es k-dimensional.
     \end{itemize}
   \end{block}
-\end{frame}
-
-\begin{frame}
-\begin{columns}
-\column{0.5\textwidth}
-    \begin{center}
-        \includegraphics[scale=0.25]{curva-suave}
-    \end{center}
-\column{0.5\textwidth}
-    \begin{center}
-        \includegraphics[scale=0.35]{curva-no-suave}
-    \end{center}
-\end{columns}
 \end{frame}
 
 \begin{frame}
@@ -85,140 +73,72 @@
 \end{frame}
 
 \begin{frame}
-    \frametitle{Antes que el vector}
-    \includegraphics[width=\textwidth]{../gfx/cardano-leibniz}
+    \frametitle{Surge el vector}
+    \includegraphics[width=\textwidth]{../gfx/hamilton-grassmann}
 \end{frame}
 
-\begin{frame}
-    \includegraphics[width=\textwidth]{../gfx/newton-wessel}
-\end{frame}
+\section{Curvas}
 
 \begin{frame}
+\begin{columns}
+\column{0.5\textwidth}
     \begin{center}
-        \includegraphics[width=0.6\textwidth]{../gfx/gauss-frame}
+        \includegraphics[scale=0.25]{curva-suave}
     \end{center}
+\column{0.5\textwidth}
+    \begin{center}
+        \includegraphics[scale=0.35]{curva-no-suave}
+    \end{center}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{Caracol de Pascal}
+    El caracol de Pascal es la curva parametrizada
+    $$ c(t)=((1+2\cos{t})\cos{t},(1+2\cos{t}+2\cos{t})\text{,} \quad t \in \realR$$
+    El vector tangente es
+    $$ c'(t)=(-\sin{t}-2\sin{2t},\cos{t}+2\cos{2t})$$
+    En particular,
+    $$ c'(2\pi/3) = (\sqrt{3}/2,-3/2)$$
 \end{frame}
 
 \begin{frame}
-    \frametitle{La ambición de Hamilton}
+    \frametitle{Caracol de Pascal}
     \begin{columns}
     \column{0.5\textwidth}
         \begin{center}
-            \begin{figure}
-            \includegraphics[scale=0.4]{../gfx/hamilton}
-                \caption{William Rowan Hamilton (1843)}
-            \end{figure}
+            \includegraphics[scale=0.5]{../gfx/limacon2}
         \end{center}
     \column{0.5\textwidth}
+        \begin{center}
+            \includegraphics[scale=0.5]{../gfx/limacon}
+        \end{center}
+    \end{columns}
+\end{frame}
+
+
+\section{Subvariedad}
+\begin{frame}
+    \frametitle{Teorema de la funci\'on impl\'icita}
+    \begin{columns}
+    \column{0.5\textwidth}
+        \begin{center}
+            \includegraphics[scale=0.3]{../gfx/unit-circle1}
+        \end{center}
+    \column{0.5\textwidth}
+        \begin{center}
+            \includegraphics[scale=0.3]{../gfx/unit-circle2}
+        \end{center}
     \end{columns}
 \end{frame}
 
 \begin{frame}
-    \frametitle{La ambición de Hamilton}
-    \begin{columns}
-    \column{0.5\textwidth}
-        \begin{center}
-            \begin{figure}
-            \includegraphics[scale=0.4]{../gfx/hamilton}
-                \caption{William Rowan Hamilton (1843)}
-            \end{figure}
-        \end{center}
-    \column{0.5\textwidth}
-        Cuaternión:
-        \begin{eqnarray*}
-            Q &=& a + x\bm{i} + y\bm{j} + z\bm{k}
-        \end{eqnarray*}
-    \end{columns}
-\end{frame}
-
-\begin{frame}
-    \frametitle{La ambición de Hamilton}
-    \begin{columns}
-    \column{0.5\textwidth}
-        \begin{center}
-            \begin{figure}
-            \includegraphics[scale=0.4]{../gfx/hamilton}
-                \caption{William Rowan Hamilton (1843)}
-            \end{figure}
-        \end{center}
-    \column{0.5\textwidth}
-       Cuaternión:
-       \begin{eqnarray*}
-           Q &=& a + x\bm{i} + y\bm{j} + z\bm{k} \\
-             &=& SQ + VQ
-       \end{eqnarray*}
-    \end{columns}
-\end{frame}
-
-\begin{frame}
-    \frametitle{La ambición de Hamilton}
-    \begin{columns}
-    \column{0.5\textwidth}
-        \begin{center}
-            \begin{figure}
-            \includegraphics[scale=0.4]{../gfx/hamilton}
-                \caption{William Rowan Hamilton (1843)}
-            \end{figure}
-        \end{center}
-    \column{0.5\textwidth} 
-       Cuaternión:
-       \begin{eqnarray*}
-           Q &=& a + x\bm{i} + y\bm{j} + z\bm{k} \\
-           &=& SQ + VQ \\ \\
-           Q_{1}Q_{2} &=& -Q_{2}Q_{1}  
-       \end{eqnarray*}
-    \end{columns}
-\end{frame}
-
-\begin{frame}
-    \frametitle{Más sistemas vectoriales}
-    \begin{columns}
-    \column{0.5\textwidth}
-        \begin{center}
-            \begin{figure}
-            \includegraphics[scale=0.4]{../gfx/grassmann}
-                \caption{Hermann Grassmann (1844)}
-            \end{figure}
-        \end{center}
-    \column{0.5\textwidth} 
-        \includegraphics[width=\textwidth]{../gfx/grassmann-book}
-    \end{columns}
-\end{frame}
-
-\begin{frame}
-    \begin{columns}
-    \column{0.5\textwidth}
-        \begin{center}
-            \begin{figure}
-            \includegraphics[scale=0.4]{../gfx/gibbs}
-                \caption{Josiah Willard Gibbs (1881)}
-            \end{figure}
-        \end{center}
-    \column{0.5\textwidth} 
-       \begin{eqnarray*}
-           \alpha . \beta &=& \beta . \alpha \quad \text{Gibbs} \\
-           S\alpha\beta &=& S\beta\alpha \quad \text{Tait} \\
-           \alpha \times \beta &=& -\beta \times \alpha \quad \text{Gibbs} \\  
-           V\alpha\beta &=& -V\beta\alpha \quad \text{Tait} \\  
-       \end{eqnarray*}
-    \end{columns}
-\end{frame}
-
-\section{pronto ...}
-
-\begin{frame}
-\end{frame}
-
-\section{pronto ...}
-\begin{frame}
-\frametitle{pronto ...}
-
-\end{frame}
-
-\section{pronto ...}
-\begin{frame}
-\frametitle{pronto ...}
-
+    \begin{figure}[ht]
+      \begin{center}
+      \includegraphics[width=0.5\linewidth]{../gfx/unit-circle3}
+      \end{center}
+    \end{figure}
 \end{frame}
 
 \end{document}
