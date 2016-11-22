@@ -1,0 +1,4 @@
+\select@language {spanish}
+\beamer@endinputifotherversion {3.36pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Introducci\IeC {\'o}n}{1}{0}{1}

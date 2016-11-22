@@ -1,14 +1,12 @@
 \chapter{Subvariedad 1-dimensional}
 \section{Teorema de la funci\'on impl\'icita}
-Este teorema es uno de aquellos que es dif\'icil de comprender por las
-diferentes condiciones que se deben cumplir, del mismo modo, llega a 
-varias conclusiones. Comenzaremos con un ejemplo.
+Este teorema se maneja en los cursos avanzados de An\'alisis, sin embargo,
+como un primer acercamiento presentamos el siguiente
 
 \begin{example}\label{ex:unit-circle}
     Tenemos el c\'irculo unitario $x^{2} + y^{2} = 1$ con centro en el
     origen. Sabemos que  $x^{2} + y^{2} = 1$ no es una funci\'on ya que
-    para cada $x$ en el dominio tenemos dos $f(x)$ en el rango, esto se
-    puede ver claramente en la figura \ref{fig:unit-circle12} (a). 
+    para cada $x$ tenemos dos $f(x)$, ver Figura \ref{fig:unit-circle12} (a). 
 
     \begin{figure}[!ht]%
         \centering
@@ -21,14 +19,14 @@ varias conclusiones. Comenzaremos con un ejemplo.
     \end{figure}
 
 
-    Pero si tomamos una vecindad de $x$ ( figura \ref{fig:unit-circle12} (b) )
+    Sin embargo, si tomamos una vecindad de $x$ ( Figura \ref{fig:unit-circle12} (b) )
     podemos definir la funci\'on $y = \sqrt{1-x^{2}}$ o $y = -\sqrt{1-x^{2}}$
-    dependiendo de si $x$ esta por arriba o por abajo del eje-$x$. La
+    dependiendo de si $x$ est\'a por arriba o por abajo del eje $x$. La
     pregunta ahora es ¿podemos hacer este mismo razonamiento para cualquier
     punto en el c\'irculo?. La respuesta es no. Si tomamos los puntos
     $(1,0)$ y $(-1,0)$ no podemos encontrar una vecindad lo suficientemente
     pequeña que cumpla que por cada $x$ tengamos un \'unico $f(x)$, ver
-    figura \ref{fig:unit-circle3}.
+    Figura \ref{fig:unit-circle3}.
 
     \begin{figure}[ht]
       \begin{center}
@@ -42,13 +40,13 @@ varias conclusiones. Comenzaremos con un ejemplo.
 
     Hasta ahora tenemos que
     $$y = \sqrt{1-x^{2}} \text{,} \quad y = \sqrt{1-x^{2}}$$
-    son dos funciones \emph{explicitas} que dan la misma relaci\'on que
+    son dos funciones \emph{expl\'icitas} que dan la misma relaci\'on que
     $x^{2} + y^{2} = 1$, de forma local para cada punto excepto 
     $(1,0)$ y $(-1,0)$.
 
-    Entonces el teorema de la funci\'on impl\'icita provee condiciones
-    bajo las cuales la relaci\'on de la forma $F(x,y)=0$ puede ser
-    redefinida como una funci\'on $y=f(x)$ localmente.
+    Entonces el Teorema de la Funci\'on Impl\'icita provee condiciones
+    bajo las cuales la relaci\'on de la forma $F(x,y)=0$ puede verse
+    localmente como una funci\'on $y=f(x)$.
 \end{example}
 
 Aunque no demostraremos este teorema, el siguiente ejemplo nos acerca a la
@@ -59,8 +57,8 @@ idea de su demostraci\'on para funciones de una o dos variables.
 \end{example}
 
     Vemos que es trivial definir $x=f(y)$, pero ahora la pregunta es ¿podemos
-    definir $y=f(x)$?. La respuesta no es obvia, podriamos intentar resolver
-    en terminos de $x$, pero, eso supone que podemos encontrar ra\'ices de 
+    definir $y=f(x)$?. La respuesta no es obvia, podr\'iamos intentar resolver
+    en t\'erminos de $x$, sin embargo, eso supone que podemos encontrar ra\'ices de 
     polinomios de grado 5, lo cual Galois demostró que no es posible. Tratemos
     ahora fijando $x$, por ejemplo en $x_{0}$, y definamos
     $$ \phi(y)=y^{5}+y^{3}+y+x_{0}$$
@@ -70,8 +68,8 @@ idea de su demostraci\'on para funciones de una o dos variables.
     esto nos dice que $\phi(y)$ cruza el eje-x, es decir, $\phi(y)$ tiene exactamente
     una ra\'iz, sea $y_{0}$.
 
-    Vemos que para cada $x$ tenemos una $y$ \'unica tal que $f(x)=0$, en otras
-    palabras, encontramos una funci\'on $y=f(x)$, pero $f$ es \'implicita.
+    Vemos que para cada $x$ tenemos una $y$ \'unica tal que $f(x)=y$, en otras
+    palabras, encontramos una funci\'on $y=f(x)$, pero $f$ es impl\'icita.
 
     Este teorema nos dice, entre otras cosas, que la relaci\'on $y=f(x)$
     existe pero no nos da una f\'ormula para encontrarla.
@@ -79,18 +77,18 @@ idea de su demostraci\'on para funciones de una o dos variables.
 \clearpage
 
 \begin{theorem}[Teorema de la funci\'on impl\'icita]
-    Sea $\overrightarrow{x} = (x_{1},x_{2},\ldots,x_{n})$ y sea $F(\overrightarrow{x},y) \in C^{1}$ 
-    en una vecindad de $N_{0}(\overrightarrow{x_{0}},y_{0})$ tal que
+    Sea $\bm{x} = (x_{1},x_{2},\ldots,x_{n})$ y sea $F(\bm{x},y) \in C^{1}$ 
+    en una vecindad de $(\bm{x_{0}},y_{0})$ tal que
     \begin{enumerate}
-        \item $F(N_{0}) = 0$
-        \item $\frac{\partial F}{\partial y}(N_{0}) \ne 0$
+        \item $F((\bm{x_{0}},y_{0})) = 0$
+        \item $\frac{\partial F}{\partial y}((\bm{x_{0}},y_{0})) \ne 0$
     \end{enumerate}
-    entonces existe una vecindad de $(N_{0})$ en donde existe una
-    funci\'on \'implicita $y=f(\overrightarrow{x})$ tal que
+    entonces existe una vecindad de $(\bm{x_{0}},y_{0})$ en donde existe una
+    funci\'on \'implicita $y=f(\bm{x})$ tal que
     \begin{enumerate}[i.]
-        \item $f(\overrightarrow{x_{0}}) = y_{0}$
-        \item $F(\overrightarrow{x}, f(\overrightarrow{x})) = 0$
-        \item $\frac{\partial f}{\partial x_{i}} = -\cfrac{\cfrac{\partial F}{\partial x_{i}}(\overrightarrow{x},f(\overrightarrow{x}))}{\cfrac{\partial F}{\partial y}(\overrightarrow{x},f(\overrightarrow{x}))}$
+        \item $f(\bm{x_{0}}) = y_{0}$
+        \item $F(\bm{x}, f(\bm{x})) = 0$
+        \item $\frac{\partial f}{\partial x_{i}} = -\cfrac{\cfrac{\partial F}{\partial x_{i}}(\bm{x},f(\bm{x}))}{\cfrac{\partial F}{\partial y}(\bm{x},f(\bm{x}))}$
     \end{enumerate}
 \end{theorem}
 
@@ -102,8 +100,8 @@ en cada punto que satisfaga $F(x,y) = 0$. Si esto se cumple, entonces la curva p
 parametrizada localmente como una curva \emph{regular} parametrizada. Se dice que una curva 
 es regular si su derivada no mapea al $0$.
 
-La generalizaci\'on de este conc\'epto a la situaci\'on de varias variables y varias funciones
-reales simultaneamente, nos da directa y naturalmente, la noci\'on de \emph{subvariedad}
+La generalizaci\'on de este concepto a la situaci\'on de varias variables y varias funciones
+reales simult\'aneamente, nos da directa y naturalmente, la noci\'on de \emph{subvariedad}
 
 \section{Subvariedad 1-dimensional}
 

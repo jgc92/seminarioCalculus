@@ -1,0 +1,84 @@
+\documentclass{beamer}
+
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx,hyperref,ru,url,bm}
+
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+
+\def\realR{\mathbb{R}} % Defines the way to use real numbers symbol R.
+
+
+\begin{document}
+
+\section{Introducción}
+
+\begin{frame}
+    \begin{theorem}[Teorema de la funci\'on impl\'icita]
+        Sea $\bm{x} = (x_{1},x_{2},\ldots,x_{n})$ y sea $F(\bm{x},y) \in C^{1}$ 
+        en una vecindad de $(\bm{x_{0}},y_{0})$ tal que
+        \begin{enumerate}
+            \item $F((\bm{x_{0}},y_{0})) = 0$
+            \item $\frac{\partial F}{\partial y}((\bm{x_{0}},y_{0})) \ne 0$
+        \end{enumerate}
+        entonces existe una vecindad de $(\bm{x_{0}},y_{0})$ en donde existe una
+        funci\'on \'implicita $y=f(\bm{x})$ tal que
+        \begin{enumerate}[i.]
+            \item $f(\bm{x_{0}}) = y_{0}$
+            \item $F(\bm{x}, f(\bm{x})) = 0$
+            \item $\frac{\partial f}{\partial x_{i}} = -\cfrac{\cfrac{\partial F}{\partial x_{i}}(\bm{x},f(\bm{x}))}{\cfrac{\partial F}{\partial y}(\bm{x},f(\bm{x}))}$
+        \end{enumerate}
+    \end{theorem}
+\end{frame}
+
+\begin{frame}
+    \begin{definition}[Subvariedad]
+        Una subvariedad k-dimensional (de clase $C^{\alpha}$) $M \subset \realR^{n}$ está definida por
+        la condici\'on  de que $M$ est\'a dada localmente como el conjunto cero $F^{-1}(0)$ de un
+        mapeo continuo ($\alpha$-veces) diferenciable
+        $$ U \subset \realR^{n}  \xrightarrow{F} \realR^{n-k}$$
+        con rango m\'aximo, es decir, $rank(J_{x}F|_{x})= n - k$ para cada $x \in M \cap U$, donde
+        $M \cap U = F^{-1}(0)$ se cumple para una vecindad de $U$, para cada punto en $M$. \\
+        Localmente, tambi\'en podemos describir a $M$ como la im\'agen de una inmersi\'on (ver
+        definici\'on \ref{def:immersion}) de clase $C^{\infty}$
+        $$ V \subset \realR^{k} \xrightarrow{f} M \subset \realR^{n} $$
+        donde $rank(Df)=k$. Dicha $f$ es la parametrizaci\'on local, y $f^{-1}$ es llamada una \emph{carta}
+        de $M$.
+    \end{definition}
+\end{frame}
+
+\begin{frame}
+    \begin{definition}[Espacio tangente a $\realR^{n}$]
+        Para cada punto $x \in \realR^{n}$ el espacio
+        $$ T_{x}\realR^{n} := \{x\} \times \realR^{n} $$
+        es llamado el espacio tangente en el punto $x$ (el espacio de todos los vectores
+        tangentes en el punto $x$). La derivada (o diferencial) $Df$ de un mapeo diferenciable
+        $f$ esta definido como
+        $$ Df|_{x}: T_{x}\realR^{k} \rightarrow T_{f(x)}\realR^{n} \quad \text{con} \quad
+        (x,v) \mapsto (f(x),J_{x}f(v)) \text{.} $$
+    \end{definition}
+\end{frame}
+
+\begin{frame}
+    \begin{definition}\label{def:immersion}
+        Una inmersi\'on es un mapeo diferenciable entre subvariedades diferenciables donde su
+        derivada es inyectiva. Explicitamente, $f:M \rightarrow N$ es una inmersi\'on si
+        $$ D_{p}f: T_{p}M \rightarrow T_{f(p)}N $$
+        es un mapeo inyectivo para toda $p \in M$. De forma equivalente, $f$ es una inmersi\'on
+        si su derivada tiene rango igual a dim$M$:
+        $$ rank D_{p}f = \text{dim}M \text{.} $$
+    \end{definition}
+\end{frame}
+
+\begin{frame}
+\begin{definition}[Espacio tangente a una subvariedad]
+    Sea $M \subset \realR^{n}$ una variedad k-dimensional, y sea $p \in M$. El
+    espacio tangente a $M$ en el punto $p$ es el subespacio vectorial $T_{p}M \subset T_{p}\realR^{n}$,
+    el cual se define como
+    $$ T_{p}M := Df_{u}(\{u\} \times \realR^{k})=Df_{u}(T_{u}\realR^{k}) $$
+    para una parametrizaci\'on $f:U \rightarrow M$ con $f(u) = p$, donde $U \subset \realR^{k}$ es
+    un conjunto abierto.
+\end{definition}
+\end{frame}
+\end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  17 NOV 2016 12:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.30)  22 NOV 2016 13:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2640,14 +2640,6 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language append on input line 10.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language append on input line 10.
-
-Overfull \hbox (23.56335pt too wide) in paragraph at lines 32--34
-[]\T1/pplj/m/it/10.95 Una cur-va pa-ra-me-tri-za-da en $\U/fplmbb/m/n/10.95/160
-ls R[]$ \T1/pplj/m/it/10.95 es una ma-peo $\U/zeur/m/n/10.95/160ls c \U/zeus/m/
-n/10.95/160ls º ¨\U/zeur/m/n/10.95/160ls \T1/pplj/m/n/10.95/160ls , \U/zeur/m/
-n/10.95/160ls ^^L\U/zeus/m/n/10.95/160ls © !
- []
-
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language append on input line 47.
 Package babel Info: Redefining spanish shorthand >>
@@ -2835,171 +2827,171 @@ Package babel Info: Redefining spanish shorthand "?
 <gfx/unit-circle1.png, id=360, 529.98pt x 570.13pt>
 File: gfx/unit-circle1.png Graphic file (type png)
  <use gfx/unit-circle1.png>
-Package pdftex.def Info: gfx/unit-circle1.png used on input line 15.
+Package pdftex.def Info: gfx/unit-circle1.png used on input line 13.
 (pdftex.def)             Requested size: 151.19897pt x 162.65402pt.
 
 <gfx/unit-circle2.png, id=361, 529.98pt x 570.13pt>
 File: gfx/unit-circle2.png Graphic file (type png)
  <use gfx/unit-circle2.png>
-Package pdftex.def Info: gfx/unit-circle2.png used on input line 18.
+Package pdftex.def Info: gfx/unit-circle2.png used on input line 16.
 (pdftex.def)             Requested size: 151.19897pt x 162.65402pt.
 
 <gfx/unit-circle3.png, id=364, 300.322pt x 432.014pt>
 File: gfx/unit-circle3.png Graphic file (type png)
 
 <use gfx/unit-circle3.png>
-Package pdftex.def Info: gfx/unit-circle3.png used on input line 35.
+Package pdftex.def Info: gfx/unit-circle3.png used on input line 33.
 (pdftex.def)             Requested size: 168.0pt x 241.6691pt.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 58.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 58.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 58.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 58.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 58.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 58.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 58.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 58.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 58.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 58.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 58.
+(babel)             in language append on input line 56.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 58.
+(babel)             in language append on input line 56.
  [23
 
 
 
 
  <./gfx/unit-circle1.png> <./gfx/unit-circle2.png>]
-LaTeX Info: Redefining \sptext on input line 79.
-LaTeX Info: Redefining \. on input line 79.
-LaTeX Info: Redefining \% on input line 79.
+LaTeX Info: Redefining \sptext on input line 77.
+LaTeX Info: Redefining \. on input line 77.
+LaTeX Info: Redefining \% on input line 77.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 79.
+(babel)             in language append on input line 77.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 79.
+(babel)             in language append on input line 77.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 79.
+(babel)             in language append on input line 77.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 79.
+(babel)             in language append on input line 77.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 79.
+(babel)             in language append on input line 77.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 79.
+(babel)             in language append on input line 77.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 79.
+(babel)             in language append on input line 77.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 79.
+(babel)             in language append on input line 77.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 79.
+(babel)             in language append on input line 77.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 79.
+(babel)             in language append on input line 77.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 79.
+(babel)             in language append on input line 77.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 79.
+(babel)             in language append on input line 77.
  [24 <./gfx/unit-circle3.png>]
-Overfull \hbox (23.12323pt too wide) in paragraph at lines 82--85
-[]\T1/pplj/m/it/10.95 Sea $[] \U/zeus/m/n/10.95 ½ ¨\U/zeur/m/n/10.95 x[]\T1/ppl
-j/m/n/10.95 , \U/zeur/m/n/10.95 x[]\T1/pplj/m/n/10.95 , [] , \U/zeur/m/n/10.95 
-x[]\U/zeus/m/n/10.95 ©$
+Overfull \hbox (19.387pt too wide) in paragraph at lines 80--83
+[]\T1/pplj/m/it/10.95 Sea $\OML/cmm/b/it/10.95 x \U/zeus/m/n/10.95 ½ ¨\U/zeur/m
+/n/10.95 x[]\T1/pplj/m/n/10.95 , \U/zeur/m/n/10.95 x[]\T1/pplj/m/n/10.95 , [] ,
+ \U/zeur/m/n/10.95 x[]\U/zeus/m/n/10.95 ©$
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 97.
+(babel)             in language append on input line 95.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 97.
+(babel)             in language append on input line 95.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 97.
+(babel)             in language append on input line 95.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 97.
+(babel)             in language append on input line 95.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 97.
+(babel)             in language append on input line 95.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 97.
+(babel)             in language append on input line 95.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 108.
+(babel)             in language append on input line 106.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 108.
+(babel)             in language append on input line 106.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 108.
+(babel)             in language append on input line 106.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 108.
+(babel)             in language append on input line 106.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 108.
+(babel)             in language append on input line 106.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 108.
+(babel)             in language append on input line 106.
 
-Overfull \hbox (36.48553pt too wide) in paragraph at lines 127--130
+Overfull \hbox (36.48553pt too wide) in paragraph at lines 125--128
 []\T1/pplj/m/it/10.95 Una sub-va-rie-dad 1-dimensional
  []
 
-LaTeX Info: Redefining \sptext on input line 130.
-LaTeX Info: Redefining \. on input line 130.
-LaTeX Info: Redefining \% on input line 130.
+LaTeX Info: Redefining \sptext on input line 128.
+LaTeX Info: Redefining \. on input line 128.
+LaTeX Info: Redefining \% on input line 128.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 130.
+(babel)             in language append on input line 128.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 130.
+(babel)             in language append on input line 128.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 130.
+(babel)             in language append on input line 128.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 130.
+(babel)             in language append on input line 128.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 130.
+(babel)             in language append on input line 128.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 130.
+(babel)             in language append on input line 128.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 130.
+(babel)             in language append on input line 128.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 130.
+(babel)             in language append on input line 128.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 130.
+(babel)             in language append on input line 128.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 130.
+(babel)             in language append on input line 128.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 130.
+(babel)             in language append on input line 128.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 130.
+(babel)             in language append on input line 128.
 [25
 
 ]
-LaTeX Info: Redefining \sptext on input line 185.
-LaTeX Info: Redefining \. on input line 185.
-LaTeX Info: Redefining \% on input line 185.
+LaTeX Info: Redefining \sptext on input line 183.
+LaTeX Info: Redefining \. on input line 183.
+LaTeX Info: Redefining \% on input line 183.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 185.
+(babel)             in language append on input line 183.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 185.
+(babel)             in language append on input line 183.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 185.
+(babel)             in language append on input line 183.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 185.
+(babel)             in language append on input line 183.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 185.
+(babel)             in language append on input line 183.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 185.
+(babel)             in language append on input line 183.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language append on input line 185.
+(babel)             in language append on input line 183.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language append on input line 185.
+(babel)             in language append on input line 183.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language append on input line 185.
+(babel)             in language append on input line 183.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language append on input line 185.
+(babel)             in language append on input line 183.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language append on input line 185.
+(babel)             in language append on input line 183.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language append on input line 185.
+(babel)             in language append on input line 183.
  [26])
 LaTeX Info: Redefining \sptext on input line 98.
 LaTeX Info: Redefining \. on input line 98.
@@ -3462,11 +3454,11 @@ Package logreq Info: Writing requests to 'ClassicThesis.run.xml'.
  )
 (\end occurred when \iftrue on line 55 was incomplete) 
 Here is how much of TeX's memory you used:
- 23768 strings out of 493029
- 408843 string characters out of 6136235
- 721607 words of memory out of 5000000
- 26547 multiletter control sequences out of 15000+600000
- 122586 words of font info for 241 fonts, out of 8000000 for 9000
+ 23799 strings out of 493029
+ 409322 string characters out of 6136234
+ 720607 words of memory out of 5000000
+ 26570 multiletter control sequences out of 15000+600000
+ 129563 words of font info for 255 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,24n,99p,1159b,2187s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf
@@ -3478,22 +3470,23 @@ cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/euex
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/fpl/fplrc8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/fpl/fplrij8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmr8
-a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmro8a.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (35 pages, 402920 bytes).
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurb7.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/fpl/fplrc8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fp
+l/fplrij8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmro8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/palatino/uplri8a.pfb>
+Output written on ClassicThesis.pdf (35 pages, 405577 bytes).
 PDF statistics:
- 543 PDF objects out of 1000 (max. 8388607)
- 446 compressed objects within 5 object streams
+ 547 PDF objects out of 1000 (max. 8388607)
+ 449 compressed objects within 5 object streams
  141 named destinations out of 1000 (max. 500000)
- 56126 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 58686 words of extra memory for PDF output out of 61914 (max. 10000000)
 

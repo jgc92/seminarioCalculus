@@ -7,8 +7,8 @@ Esta sección está centrada en los conceptos de conjunto abierto, límite y con
 
 Comenzamos la formulación del concepto de conjunto abierto mediante la definición de disco abierto. Sea $x_{0}
 \in  \realR^{n}$ y sea $r$ un número real positivo. El disco abierto (o bola abierta) de radio $r$ y centro 
-en $x_{0}$, es el conjunto de puntos $x$ tales que $\|x-x_{0}\| < r $, como vimos en el ejemplo \ref{ex:distance}. Este 
-conjunto lo denotaremos por $D_{r}(x_{0})$.
+en $x_{0}$, como vimos en el Ejemplo \ref{ex:distance}, es el conjunto de puntos $x$ tales que $\|x-x_{0}\| < r $.
+Este conjunto lo denotaremos por $D_{r}(x_{0})$.
 
 \begin{definition}
     Sea $U \subset \realR^{n}$. Decimos que $U$ es un conjunto abierto cuando para cualquier punto $x_{0}$ en $U$ existe algún $r>0$
@@ -24,7 +24,7 @@ conjunto lo denotaremos por $D_{r}(x_{0})$.
   \end{center}
 \end{figure}
 
-Además establecemos la convención de que el conjunto vacio $\emptyset$ es abierto.
+Además establecemos la convención de que el conjunto vac/'io $\emptyset$ es abierto.
 
 \begin{theorem}
     Para cada $x_{0} \in \realR^{n}$ y $r > 0$, $D_{r}(x_{0})$ es un conjunto abierto.
@@ -32,28 +32,28 @@ Además establecemos la convención de que el conjunto vacio $\emptyset$ es abie
 
 \begin{proof}
     Sea $x \in D_{r}(x_{0})$, esto es, sea $\|x - x_{0}\| < r$. De acuerdo con la definición
-    de conjunto abierto, debemos hallar un $s > 0$ tal que $D_{s}(x) \subset  D_{r}(x_{0})$.
+    de conjunto abierto, debemos encontrar un $s > 0$ tal que $D_{s}(x) \subset  D_{r}(x_{0})$.
     Sea $s = r - \|x - x_{0}\|$, nótese que $s > 0$, pero que $s$ se hace más chico si $x$ está
     cerca del borde $D_{r}(x_{0})$ \\
 
-    Para probar que $D_{s}(x) \subset D_{r}(x_{0})$, sea $\bm{y} \in D_{s}(x)$; esto es, sea
-    $\|\bm{y} - x\| < s$. Queremos probar que también $\bm{y} \in D_{r}(x_{0})$. Probar esto en vista
-    de la definición de un r-disco, equivale a demostrar que $\|\bm{y} -x_{0}\| < r$. Usemos la desigualdad
+    Para probar que $D_{s}(x) \subset D_{r}(x_{0})$, sea $y \in D_{s}(x)$; esto es, sea
+    $\|y - x\| < s$. Queremos probar que también $y \in D_{r}(x_{0})$. Probar esto en vista
+    de la definición de un r-disco, equivale a demostrar que $\|y -x_{0}\| < r$. Usemos la desigualdad
     del triángulo para esto
 
     \begin{eqnarray*}
-        \|\bm{y} - x_{0}\| &=& \|(\bm{y} - x) + (x - x_{0})\| \\
-                              &\le& \|\bm{y} - x\| + \|x - x_{0}\| \\
+        \|y - x_{0}\| &=& \|(y - x) + (x - x_{0})\| \\
+                              &\le& \|y - x\| + \|x - x_{0}\| \\
                               &<& s + \|x-x_{0}\| \\
                               &=& r \text{.}
     \end{eqnarray*}
 
-    De aquí que $\|\bm{y} - x_{0}\| < r$. \qed
+    De aquí que $\|y - x_{0}\| < r$. \qed
 
 \end{proof}
 
 \begin{definition}
-    Sea $A \subset \realR^{n}$ es punto frontera de $A$ si toda vecindad de $x$ contiene al menos un punto de $A$ y al menos un punto fuera de $A$.
+    Sea $A \subset \realR^{n}$. Un punto $x \in \realR^{n}$ es punto frontera de $A$ si toda vecindad de $x$ contiene al menos un punto de $A$ y al menos un punto fuera de $A$.
 \end{definition}
 
 En esta definición, $x$ puede estar o no en $A$; si $x \in A$, entonces $x$ es un punto frontera si toda vecindad de $x$ contiene al menos un punto
@@ -70,7 +70,7 @@ $x$ contiene al menos un punto de $A$.
 
 
 Ya estamos en posición de definir un límite. Durante toda la exposición siguiente, el dominio de definición de la función $f$ será un conjunto abierto $A$.
-Nos interesa hallar el límite de $f$ cuando $x \in A$ tienda a un punto de $A$ o a un punto frontera de $A$.
+Nos interesa encontrar el límite de $f$ cuando $x \in A$ tienda a un punto de $A$ o a un punto frontera de $A$.
 
 El concepto de límite es una herramienta básica y útil para el análisis de funciones; nos permite estudiar derivadas y de especial interes en este texto,
 derivadas parciales.
@@ -88,9 +88,9 @@ Del cálculo de una variable sabemos que el concepto de función continua está 
 curva sin romper, esto es, una curva sin saltos.
 
 \begin{definition}
-    Sea $f:A \subset \realR^{n} \mapsto \realR^{m}$ una función dada con dominio $A$. Sea $x_{0} \in A$. Decimos que $f$ es continua
-    en $x_{0}$ si y sólo si
-    $$ \lim_{x \rightarrow x_{0}} f(x) = f(x_{0})$$
+    Sea $f:A \subset \realR^{n} \mapsto \realR^{m}$ una función dada con dominio $A$ y $x_{0} \in A$. Decimos que $f$ es continua
+    en $x_{0}$ si
+    $$ \lim_{x \rightarrow x_{0}} f(x) = f(x_{0})\text{.}$$
 \end{definition}
 
 Si decimos simplemente que $f$ es \emph{continua}, queremos decir que $f$ es continua
@@ -103,7 +103,7 @@ esto nos ayuda a ver que una gráfica no esté rota, es decir, no debe haber dob
 debe ser suave.
 
 Para precisar estas ideas necesitamos una definición sensata de lo que entedemos por $f(x_{1}, \ldots, x_{n})$ es diferenciable en $x=(x_{1}, \ldots, x_{n})$.
-En realidad esta definición no es tan sencilla, como pudiera pensarse. Necesitamos introducir el concepto de \emph{derivada parcial}. Este concepto se
+Para ello necesitamos introducir el concepto de \emph{derivada parcial}. Este concepto se
 basa en nuestro conocimiento del cálculo en una variable.
 
 Entonces comenzaremos con definir que significa que $f(x)$ es diferenciable en un punto $x$, es decir, la derivada de $f(x)$ en $x$. Para esto usaremos
@@ -135,7 +135,7 @@ En ocasiones usaremos la notación $f'(x)$ para denotar la derivada de $f$ respe
   \end{center}
 \end{figure}
 
-De forma geométrica, la derivada nos dice la \emph{pendiente} de la recta tangente a $f$ en un punto $x$.
+De forma geométrica para una funci\'on $f:\realR \rightarrow \realR$, la derivada nos dice la \emph{pendiente} de la recta tangente a $f$ en un punto $x$.
 
 Que una función $f(x)$ sea diferenciable en todo su dominio quiere decir que para cualquier $x$ en el dominio de $f(x)$ existe
 $f'(x)$, esto nos dice que la gráfica de $f(x)$ es suave. Esto nos acerca a la definición de \emph{curva}. Un ejemplo típico 
@@ -173,8 +173,8 @@ Transportando esta idea a funciones de varias variables surge la definición de 
 En otras palabras, $\partial f / \partial x_{j}$ es simplemente la derivada de $f$ respecto a la variable $x_{j}$, manteniendo las otras variables fijas.
 
 \begin{myExample}
-    Si $f(x,y) = x^{2}y+y^{3}$, hallar $\partial f / \partial x$ y $\partial f / \partial y$.
-    Para hallar $\partial f / \partial x$ mantenemos $y$ constante y diferenciamos sólo respecto de $x$, entonces
+    Si $f(x,y) = x^{2}y+y^{3}$, encontrar $\partial f / \partial x$ y $\partial f / \partial y$.
+    Para encontrar $\partial f / \partial x$ mantenemos $y$ constante y diferenciamos sólo respecto de $x$, entonces
     $$ \frac{\partial f}{\partial x} = \frac{d(x^{2}y+y^{3})}{dx} = 2xy \text{.} $$
 
     De forma análoga, tenemos que
