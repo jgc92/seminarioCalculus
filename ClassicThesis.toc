@@ -50,7 +50,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Subvariedad 1-dimensional}{25}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Appendix}}{29}{part.3}
+\contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Ap\'endice}}{29}{part.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Algunas definiciones \'utiles}}{31}{appendix.Alph1}
 \defcounter {refsection}{0}\relax 
