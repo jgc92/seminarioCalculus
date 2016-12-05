@@ -9,13 +9,13 @@ válidos para $\realR^{2}$.
 
 \section{¿Qu\'e es una curva?}
 
-Si nos pidieran dar un ejemplo de una curva, podriamos decir que una l\'inea recta, como
+Si nos pidieran dar un ejemplo de una curva, podr\'iamos decir que una l\'inea recta, como
 $y-2x=1$ (aunque no sea \emph{curva}), o un c\'irculo, por ejemplo $x^{2} + y^{2} = 1$, 
 o tal vez una par\'abola, $y-x^{2}=0$.
 
 Todas estas curvas est\'an descritas por su ecuaci\'on cartesiana
 $$ f(x,y) = c \text{,} $$
-donde $f$ es una funci\'on de $x$ y $y$ y $c$ es constante. Todos estos ejemplos son curvas
+donde $f:\realR^{2} \rightarrow \realR$ es una funci\'on de $x$ y $y$ y $c$ es constante. Todos estos ejemplos son curvas
 en $\realR^{2}$, pero podr\'iamos considerar curvas en $\realR^{3}$ tambi\'en, por ejemplo
 el eje $x$ en $\realR^{3}$ es la l\'inea recta dada por
 $$y=0\text{,} \quad z=0 \text{,}$$
@@ -29,15 +29,15 @@ primera definici\'on formal de curva en $\realR^{3}$
 
 \begin{definition}
     Una curva parametrizada en $\realR^{3}$ es una mapeo 
-    $$c:(\alpha,\beta) \rightarrow \realR^{3}$$
-    para alg\'un $\alpha$, $\beta$ con $-\infty \le \alpha < \beta \le \infty$.
+    $$c:I \rightarrow \realR^{3}$$
+    para alg\'un intervalo abierto $I$.
 \end{definition}
 
 \begin{example}
-    Una línea recta es el tipo más simple de \emph{curva} en el espacio Euclideo. Es una curva
+    Una línea recta es el tipo más simple de \emph{curva} en el espacio, es una curva
     $c:\realR \rightarrow \realR^{3}$ tal que
-    $$ c(t) = p + tq$$
-    Donde $p$,$q$ $\in \realR^{3}$.
+    $$ c(t) = p + tq \text{,}$$
+    donde $p$,$q$ $\in \realR^{3}$.
 \end{example}
 
 \begin{example}
@@ -57,7 +57,7 @@ primera definici\'on formal de curva en $\realR^{3}$
 \end{figure}
 
 Estas curvas estar\'an descritas exclusivamente en t\'erminos de funciones \emph{suaves}: una funci\'on
-$f:(\alpha,\beta) \rightarrow \realR$ se dice que es \emph{suave} si sus derivadas $\frac{d^{n}f}{dt^{n}}$
+$f:I \rightarrow \realR$ se dice que es \emph{suave} si sus derivadas $\frac{d^{n}f}{dt^{n}}$
 existen para todo $n \ge 1$.
 
 Para diferenciar una \emph{funci\'on vectorial} como $c(t)$, diferenciamos componente a componente, esto es
@@ -122,7 +122,7 @@ Tomaremos esta idea para definir el \emph{espacio tangente} a una curva.
 \end{definition}
 
 \begin{myExample}
-    Tomando el ejemplo 3.4, el espacio tangente (recta tangente) en $c(\pi/4)$ es
+    Tomando el Ejemplo 3.4, el espacio tangente (recta tangente) en $c(\pi/4)$ es
     $$ l(t_{1}) = (c(\pi/4) + t_{1}c'(\pi/4)) $$
 \end{myExample}
 

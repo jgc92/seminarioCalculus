@@ -24,7 +24,7 @@ Este conjunto lo denotaremos por $D_{r}(x_{0})$.
   \end{center}
 \end{figure}
 
-Además establecemos la convención de que el conjunto vac/'io $\emptyset$ es abierto.
+Además establecemos la convención de que el conjunto vac\'io $\emptyset$ es abierto.
 
 \begin{theorem}
     Para cada $x_{0} \in \realR^{n}$ y $r > 0$, $D_{r}(x_{0})$ es un conjunto abierto.
@@ -56,7 +56,7 @@ Además establecemos la convención de que el conjunto vac/'io $\emptyset$ es ab
     Sea $A \subset \realR^{n}$. Un punto $x \in \realR^{n}$ es punto frontera de $A$ si toda vecindad de $x$ contiene al menos un punto de $A$ y al menos un punto fuera de $A$.
 \end{definition}
 
-En esta definición, $x$ puede estar o no en $A$; si $x \in A$, entonces $x$ es un punto frontera si toda vecindad de $x$ contiene al menos un punto
+En esta definición, $x$ puede estar o no en $A$; si $x \in A$, entonces $x$ es un punto frontera de $A$ si toda vecindad de $x$ contiene al menos un punto
 que no esté en $A$. De manera análoga, si $x$ no está en $A$, es un punto frontera si toda vecindad de
 $x$ contiene al menos un punto de $A$.
 
@@ -76,12 +76,10 @@ El concepto de límite es una herramienta básica y útil para el análisis de f
 derivadas parciales.
 
 \begin{definition}[Límite]
-    Sea $f:A \subset \realR^{n} \mapsto \realR^{m}$, donde $A$ es un conjunto abierto. Sea $x_{0}$ un punto de $A$ o en la frontera de $A$, y sea
-    $V$ una vecindad de $\bm{b} \in \realR^{m}$. Decimos que $f$ está en $V$ conforme $x$ tiende a $x_{0}$ si existe una vecindad $U$ de 
-    $x_{0}$ tal que $x \neq x_{0}$, $x \in U$ y $x \in A$ implica $f(x) \in V$. Decimos que $f(x)$ tiende a $\bm{b}$ cuando
-    $x$ tiende a $x_{0}$, es decir
-
-    $$ \lim_{x \rightarrow x_{0}} f(x) = b $$
+    Sea $f(x)$ una función definida en un intervalo que contenga a $x=a$, excepto posiblemente en $x=a$. Entonces decimos que,
+    $$\lim_{x \rightarrow a} f(x) = L$$
+    si para todo n\'umero $\epsilon > 0$ existe un $\delta > 0$ tal que
+    $$ |f(x)-L| < \epsilon \quad \text{siempre y cuando} \quad 0 < |x-a|< \delta $$
 \end{definition}
 
 Del cálculo de una variable sabemos que el concepto de función continua está basado en la idea intuitiva de una función cuya gráfica es una
@@ -98,7 +96,7 @@ en cada punto $x_{0}$ de $A$.
 
 \section{Diferenciación}
 
-En nuestro trabajo de la sección anterior vimos qué es una función continua. Aquí veremos que significa que una función sea diferenciable y como
+Aquí veremos que significa que una función sea diferenciable y como
 esto nos ayuda a ver que una gráfica no esté rota, es decir, no debe haber dobleces, esquinas o picos en la gráfica. En otras palabras, la gráfica 
 debe ser suave.
 
@@ -110,14 +108,14 @@ Entonces comenzaremos con definir que significa que $f(x)$ es diferenciable en u
 nuestra definición de límite.
 
 \begin{definition}
-    Sea $f$ una función de valor real definida en una vecindad abierta de $x$. Entonces $\frac{df}{dx}$ (la derivada de $f$ respecto a $x$) es
+    Sea $f:\realR \rightarrow \realR$ una función de valor real definida en una vecindad abierta de $x$. Entonces $\frac{df}{dx}$ (la derivada de $f$ respecto a $x$) es
     $$ \lim_{h \rightarrow 0} \frac{f(x+h) - f(x)}{h} $$
 \end{definition}
 
 En ocasiones usaremos la notación $f'(x)$ para denotar la derivada de $f$ respecto $x$.
 
 \begin{example}
-    Sea $f(x)=x^{2}$ ( figura \ref{fig:derivative} ), entonces
+    Sea $f(x)=x^{2}$ ( Figura \ref{fig:derivative} ), entonces
     \begin{eqnarray*}
         f'(1) &=& \lim_{h \rightarrow 0} \frac{f(1+h)-f(1)}{h} \\
               &=& \lim_{h \rightarrow 0} \frac{(1+h)^{2}-(1)}{h} \\
@@ -138,7 +136,7 @@ En ocasiones usaremos la notación $f'(x)$ para denotar la derivada de $f$ respe
 De forma geométrica para una funci\'on $f:\realR \rightarrow \realR$, la derivada nos dice la \emph{pendiente} de la recta tangente a $f$ en un punto $x$.
 
 Que una función $f(x)$ sea diferenciable en todo su dominio quiere decir que para cualquier $x$ en el dominio de $f(x)$ existe
-$f'(x)$, esto nos dice que la gráfica de $f(x)$ es suave. Esto nos acerca a la definición de \emph{curva}. Un ejemplo típico 
+$f'(x)$, esto nos dice que la gráfica de $f(x)$ es suave. Un ejemplo típico 
 de una gráfica no suave la vemos a continuci\'on:
 
 \begin{example}
