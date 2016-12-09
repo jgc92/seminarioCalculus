@@ -42,13 +42,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.6}Espacio tangente a una curva parametrizada}{22}{section.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Subvariedad 1-dimensional}}{23}{chapter.4}
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Variedad 1-dimensional}}{23}{chapter.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Teorema de la funci\'on impl\'icita}{23}{section.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.1}Caso especial: curva}{25}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Subvariedad 1-dimensional}{25}{section.4.4}
+\contentsline {section}{\numberline {4.4}Variedad 1-dimensional}{25}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.9}Conclusiones}{27}{section.4.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Ap\'endice}}{29}{part.3}
 \defcounter {refsection}{0}\relax 
