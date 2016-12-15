@@ -72,9 +72,9 @@
 
 \begin{frame}
     \begin{definition}
-        Una curva parametrizada en $\realR^{3}$ es una mapeo 
-        $$c:I \rightarrow \realR^{3}$$
-        para alg\'un intervalo abierto $I$.
+        Una curva parametrizada en $\realR^{n}$ es una mapeo 
+        $$c:I \rightarrow \realR^{n}$$
+        para alg\'un intervalo abierto $I \in \realR$.
     \end{definition}
 \end{frame}
 
@@ -90,22 +90,15 @@
 
 \begin{frame}
     \frametitle{Caracol de Pascal}
-    \begin{columns}
-    \column{0.5\textwidth}
-        \begin{center}
-            \includegraphics[scale=0.5]{../gfx/limacon2}
-        \end{center}
-    \column{0.5\textwidth}
-        \begin{center}
-            \includegraphics[scale=0.5]{../gfx/limacon}
-        \end{center}
-    \end{columns}
+    \begin{center}
+    \includegraphics[scale=0.5]{../gfx/limacon2}
+    \end{center}
 \end{frame}
 
+\section{Variedad}
 
-\section{Subvariedad}
 \begin{frame}
-    \frametitle{Teorema de la funci\'on impl\'icita}
+    \frametitle{$F(x,y)=x^{2}+y^{2}-1=0$}
     \begin{columns}
     \column{0.5\textwidth}
         \begin{center}
@@ -145,6 +138,22 @@
 \end{frame}
 
 \begin{frame}
+\begin{definition}[1-variedad]
+    Una variedad 1-dimensional (de clase $C^{\alpha}$) $M \subset \realR^{n}$ está definida por
+    la condici\'on  de que $M$ est\'a dada localmente como el conjunto cero $F^{-1}(0)$ de un
+    mapeo continuo ($\alpha$-veces) diferenciable
+    $$ U \subset \realR^{2}  \xrightarrow{F} \realR$$
+    con rango m\'aximo, es decir, $rank(J_{x}F)= 1$ para cada $x \in M \cap U$, donde
+    $M \cap U = F^{-1}(0)$ se cumple para una vecindad de $U$, para cada punto en $M$. \\
+    Localmente, tambi\'en podemos describir a $M$ como la im\'agen de una inmersi\'on de clase 
+    $C^{\alpha}$ 
+    $$ V \subset \realR \xrightarrow{f} M \subset \realR^{2} $$
+    donde $rank(Df)=k$. Dicha $f$ es la parametrizaci\'on local, y $f^{-1}$ es llamada una \emph{carta}
+    de $M$.
+\end{definition}
+\end{frame}
+
+\begin{frame}
     \begin{definition}[Espacio tangente a $\realR^{n}$]
         Para cada punto $x \in \realR^{n}$ el espacio
         $$ T_{x}\realR^{n} := \{x\} \times \realR^{n} $$
@@ -154,6 +163,32 @@
         $$ Df|_{x}: T_{x}\realR^{k} \rightarrow T_{f(x)}\realR^{n} \quad \text{con} \quad
         (x,v) \mapsto (f(x),J_{x}f(v)) \text{.} $$
     \end{definition}
+\end{frame}
+
+\begin{frame}
+    \includegraphics[width=\textwidth]{../gfx/toro-1}
+\end{frame}
+\begin{frame}
+    \includegraphics[width=\textwidth]{../gfx/toro-2}
+\end{frame}
+\begin{frame}
+    \includegraphics[width=\textwidth]{../gfx/toro-3}
+\end{frame}
+\begin{frame}
+    \includegraphics[width=\textwidth]{../gfx/toro-4}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Proposici\'on}
+    El espacio vectorial $T_{p}M$ es k-dimensional y no depende de la elecci\'on de $f$.
+\end{frame}
+
+\begin{frame}
+    \includegraphics[width=\textwidth]{../gfx/toro-5}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Bibliografia}
 \end{frame}
 
 \begin{frame}
@@ -167,14 +202,5 @@
     \end{definition}
 \end{frame}
 
-\begin{frame}
-    \begin{definition}[Espacio tangente a una variedad]
-        Sea $M \subset \realR^{n}$ una variedad k-dimensional, y sea $p \in M$. El
-        espacio tangente a $M$ en el punto $p$ es el subespacio vectorial $T_{p}M \subset T_{p}\realR^{n}$,
-        el cual se define como
-        $$ T_{p}M := Df_{u}(\{u\} \times \realR^{k})=Df_{u}(T_{u}\realR^{k}) $$
-        para una parametrizaci\'on $f:U \rightarrow M$ con $f(u) = p$, donde $U \subset \realR^{k}$ es
-        un conjunto abierto.
-    \end{definition}
-\end{frame}
+
 \end{document}

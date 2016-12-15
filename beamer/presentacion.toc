@@ -2,4 +2,4 @@
 \select@language {spanish}
 \beamer@sectionintoc {1}{Introducci\IeC {\'o}n}{2}{0}{1}
 \beamer@sectionintoc {2}{Curvas}{4}{0}{2}
-\beamer@sectionintoc {3}{Subvariedad}{7}{0}{3}
+\beamer@sectionintoc {3}{Variedad}{7}{0}{3}
