@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.30)  15 DEC 2016 13:40
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  5 JAN 2017 09:07
+>>>>>>> ac54b7ea21631cbb30038b84e6f28308738d93c4
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1785,25 +1789,43 @@ Package pdftex.def Info: ../gfx/toro-5.png used on input line 189.
 \tf@snm=\write8
 \openout8 = `presentacion.snm'.
 
+<<<<<<< HEAD
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
+=======
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
+>>>>>>> ac54b7ea21631cbb30038b84e6f28308738d93c4
  (./presentacion.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
+<<<<<<< HEAD
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 207.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
+=======
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 216.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
+>>>>>>> ac54b7ea21631cbb30038b84e6f28308738d93c4
 Package rerunfilecheck Info: File `presentacion.out' has not changed.
 (rerunfilecheck)             Checksum: 36937C438CAF419BA6599AB952EC67D4;134.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+<<<<<<< HEAD
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 207.
  ) 
 Here is how much of TeX's memory you used:
  18847 strings out of 493029
  354290 string characters out of 6136234
+=======
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
+ ) 
+Here is how much of TeX's memory you used:
+ 18847 strings out of 493029
+ 354290 string characters out of 6136235
+>>>>>>> ac54b7ea21631cbb30038b84e6f28308738d93c4
  427957 words of memory out of 5000000
  21815 multiletter control sequences out of 15000+600000
  156563 words of font info for 116 fonts, out of 8000000 for 9000
@@ -1824,7 +1846,11 @@ blic/lm/lmsso8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb>
+<<<<<<< HEAD
 Output written on presentacion.pdf (20 pages, 3753763 bytes).
+=======
+Output written on presentacion.pdf (20 pages, 3757682 bytes).
+>>>>>>> ac54b7ea21631cbb30038b84e6f28308738d93c4
 PDF statistics:
  379 PDF objects out of 1000 (max. 8388607)
  263 compressed objects within 3 object streams
